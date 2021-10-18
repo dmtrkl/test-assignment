@@ -1,0 +1,11 @@
+name: test-assignment
+channels:
+  - defaults
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pandas-profiling
+  - scikit-learn
+prefix: /home/kolesod/miniconda3/envs/test-assignment

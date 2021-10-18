@@ -1,0 +1,14 @@
+prefix=/home/kolesod/Projects/Proxet-Assignment/env
+exec_prefix=/home/kolesod/Projects/Proxet-Assignment/env
+libdir=/home/kolesod/Projects/Proxet-Assignment/env/lib
+includedir=/home/kolesod/Projects/Proxet-Assignment/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 23.4.17
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/home/kolesod/Projects/Proxet-Assignment/env/lib -lpng16 -lm -lz -lm
+Cflags: -I${includedir}/freetype2

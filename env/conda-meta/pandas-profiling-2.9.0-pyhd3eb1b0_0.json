@@ -1,0 +1,2000 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "attrs >=19.3.0",
+    "confuse >=1.0.0",
+    "htmlmin >=0.1.12",
+    "imagehash",
+    "ipywidgets >=7.5.1",
+    "jinja2 >=2.11.1",
+    "joblib",
+    "matplotlib-base >=3.2.0",
+    "missingno >=0.4.2",
+    "numpy >=1.16.0",
+    "pandas >=0.25.3,!=1.0.1,!=1.0.0,!=1.0.2,!=1.1.0",
+    "phik >=0.9.10",
+    "python",
+    "requests >=2.23.0",
+    "scipy >=1.4.1",
+    "tqdm >=4.43.0",
+    "visions 0.5.0.*"
+  ],
+  "extracted_package_dir": "/home/kolesod/miniconda3/pkgs/pandas-profiling-2.9.0-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "bin/pandas_profiling",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/entry_points.txt",
+    "lib/python3.9/site-packages/pandas_profiling-2.9.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/pandas_profiling/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/config.py",
+    "lib/python3.9/site-packages/pandas_profiling/config_default.yaml",
+    "lib/python3.9/site-packages/pandas_profiling/config_minimal.yaml",
+    "lib/python3.9/site-packages/pandas_profiling/controller/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/controller/console.py",
+    "lib/python3.9/site-packages/pandas_profiling/controller/pandas_decorator.py",
+    "lib/python3.9/site-packages/pandas_profiling/model/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/model/base.py",
+    "lib/python3.9/site-packages/pandas_profiling/model/correlations.py",
+    "lib/python3.9/site-packages/pandas_profiling/model/describe.py",
+    "lib/python3.9/site-packages/pandas_profiling/model/messages.py",
+    "lib/python3.9/site-packages/pandas_profiling/model/sample.py",
+    "lib/python3.9/site-packages/pandas_profiling/model/summary.py",
+    "lib/python3.9/site-packages/pandas_profiling/profile_report.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/formatters.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/collapse.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/container.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/duplicate.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/frequency_table.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/frequency_table_small.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/html.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/image.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/item_renderer.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/renderable.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/root.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/sample.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/table.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/toggle_button.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/variable.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/variable_info.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/warnings.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/flavours.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/collapse.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/container.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/duplicate.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/frequency_table.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/frequency_table_small.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/html.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/image.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/root.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/sample.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/table.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/collapse.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/diagram.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/duplicate.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/frequency_table.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/frequency_table_small.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/report.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/sample.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/grid.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/list.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/named_list.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/sections.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/select.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/tabs.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/table.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/toggle_button.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/variable.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/variable_info.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_constant.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_constant_length.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_duplicates.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_high_cardinality.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_high_correlation.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_infinite.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_missing.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_skewed.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_truncated.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_type_date.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_uniform.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_unique.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_unsupported.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_zeros.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap-theme.min.css",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap.min.css",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap.min.js",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/flatly.bootstrap.min.css",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/jquery-1.12.4.min.js",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/script.js",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/style.css",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/united.bootstrap.min.css",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/footer.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/javascript.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/navigation.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/style.html",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/toggle_button.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/variable.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/variable_info.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/warnings.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/app.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/collapse.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/container.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/duplicate.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/frequency_table.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/frequency_table_small.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/html.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/image.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/root.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/sample.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/table.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/toggle_button.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/variable.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/variable_info.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/warnings.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/streamlit/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/collapse.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/container.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/duplicate.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/frequency_table.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/frequency_table_small.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/html.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/image.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/notebook.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/root.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/sample.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/table.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/toggle_button.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/variable.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/variable_info.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/warnings.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/frequency_table_utils.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/correlations.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/overview.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/report.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_boolean.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_categorical.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_common.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_complex.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_count.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_date.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_file.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_generic.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_image.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_path.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_real.py",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/render_url.py",
+    "lib/python3.9/site-packages/pandas_profiling/serialize_report.py",
+    "lib/python3.9/site-packages/pandas_profiling/utils/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/utils/cache.py",
+    "lib/python3.9/site-packages/pandas_profiling/utils/common.py",
+    "lib/python3.9/site-packages/pandas_profiling/utils/dataframe.py",
+    "lib/python3.9/site-packages/pandas_profiling/utils/notebook.py",
+    "lib/python3.9/site-packages/pandas_profiling/utils/paths.py",
+    "lib/python3.9/site-packages/pandas_profiling/version.py",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/__init__.py",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/context.py",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/missing.py",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/plot.py",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/utils.py",
+    "lib/python3.9/site-packages/pandas_profiling/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/__pycache__/config.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/controller/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/controller/__pycache__/console.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/controller/__pycache__/pandas_decorator.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/base.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/correlations.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/describe.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/messages.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/sample.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/__pycache__/profile_report.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/__pycache__/formatters.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/collapse.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/container.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/duplicate.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/frequency_table.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/frequency_table_small.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/html.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/image.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/item_renderer.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/renderable.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/root.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/sample.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/table.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/toggle_button.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/variable.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/variable_info.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/warnings.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/__pycache__/flavours.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/collapse.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/container.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/duplicate.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/frequency_table.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/frequency_table_small.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/html.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/image.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/root.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/sample.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/table.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/templates.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/toggle_button.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/variable.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/variable_info.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/warnings.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/app.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/collapse.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/container.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/duplicate.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/frequency_table.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/frequency_table_small.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/html.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/image.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/root.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/sample.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/table.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/toggle_button.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/variable.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/variable_info.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/warnings.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/streamlit/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/collapse.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/container.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/duplicate.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/frequency_table.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/frequency_table_small.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/html.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/image.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/notebook.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/root.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/sample.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/table.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/toggle_button.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/variable.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/variable_info.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/warnings.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/presentation/__pycache__/frequency_table_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/__pycache__/correlations.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/__pycache__/overview.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/__pycache__/report.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_boolean.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_categorical.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_common.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_complex.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_count.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_date.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_file.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_generic.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_image.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_path.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_real.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_url.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/__pycache__/serialize_report.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/common.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/dataframe.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/notebook.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/paths.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/__pycache__/version.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/context.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/missing.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/plot.cpython-39.pyc",
+    "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/utils.cpython-39.pyc"
+  ],
+  "fn": "pandas-profiling-2.9.0-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "1a2cd84091ebd084198846a73dc05a04",
+  "legacy_bz2_size": 179634,
+  "license": "MIT",
+  "link": {
+    "source": "/home/kolesod/miniconda3/pkgs/pandas-profiling-2.9.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "16ed047de73f0903ed986505a93e0952",
+  "name": "pandas-profiling",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/kolesod/miniconda3/pkgs/pandas-profiling-2.9.0-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/pandas_profiling",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/tmp/build/80754af9/pandas-profiling_1605884833955/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "3239c7509859fe04f97d003afd1b3a97c63ddb4e8a81bc4e3a15741fd5ad0059",
+        "sha256_in_prefix": "bbc69964021845f09bf4cba67ea8c1944c792afceb1cc9910267fc58421bdd35",
+        "size_in_bytes": 517
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5350e53e59da60f80d71449e69855835b01c03ef130bc3e5306aae971dff2eb1",
+        "sha256_in_prefix": "5350e53e59da60f80d71449e69855835b01c03ef130bc3e5306aae971dff2eb1",
+        "size_in_bytes": 1104
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2f694d5db166b6876c8b806769e3d8897b14e61f4947e3e0d3007000369b3ebd",
+        "sha256_in_prefix": "2f694d5db166b6876c8b806769e3d8897b14e61f4947e3e0d3007000369b3ebd",
+        "size_in_bytes": 18710
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "453c180f878da8e626d9d391eb84ced4de5c0fce1fb10979a2c720e3f7960d8a",
+        "sha256_in_prefix": "453c180f878da8e626d9d391eb84ced4de5c0fce1fb10979a2c720e3f7960d8a",
+        "size_in_bytes": 29570
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "sha256_in_prefix": "00329ec9a1b2285e43c01344d2c444e69bd6f9b4a414c25f06e873677adc78fe",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "643215f1223edcf02ed7592e5ed87248b94d65eb54c393dc409b0a465c1093da",
+        "sha256_in_prefix": "643215f1223edcf02ed7592e5ed87248b94d65eb54c393dc409b0a465c1093da",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "f1eba6b7fc2f953b9310a20ca8d16ba499ca0d098d454ce8add04152a043ff06",
+        "sha256_in_prefix": "f1eba6b7fc2f953b9310a20ca8d16ba499ca0d098d454ce8add04152a043ff06",
+        "size_in_bytes": 79
+      },
+      {
+        "_path": "site-packages/pandas_profiling-2.9.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "008794cd773a85e9d5c2df8141c1fff839d5e8f4cef4467911f574bdcff43de6",
+        "sha256_in_prefix": "008794cd773a85e9d5c2df8141c1fff839d5e8f4cef4467911f574bdcff43de6",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/pandas_profiling/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b43a0b0afa82d3d1b5ce622850674b5172b39a93acf31a1edbb811db98020be8",
+        "sha256_in_prefix": "b43a0b0afa82d3d1b5ce622850674b5172b39a93acf31a1edbb811db98020be8",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "site-packages/pandas_profiling/config.py",
+        "path_type": "hardlink",
+        "sha256": "1ffaeb1a91aad198a51da0b448233e208c5ba026e585581cfc5a81328efac291",
+        "sha256_in_prefix": "1ffaeb1a91aad198a51da0b448233e208c5ba026e585581cfc5a81328efac291",
+        "size_in_bytes": 5325
+      },
+      {
+        "_path": "site-packages/pandas_profiling/config_default.yaml",
+        "path_type": "hardlink",
+        "sha256": "1dde0b8a5a15da1dfaca12957f59735d90c423e404749ef643087ab3705fc8c5",
+        "sha256_in_prefix": "1dde0b8a5a15da1dfaca12957f59735d90c423e404749ef643087ab3705fc8c5",
+        "size_in_bytes": 3564
+      },
+      {
+        "_path": "site-packages/pandas_profiling/config_minimal.yaml",
+        "path_type": "hardlink",
+        "sha256": "8a017e70b0b34939d196840cbe6955a80631e05a0fb7f93313b5c23be534845b",
+        "sha256_in_prefix": "8a017e70b0b34939d196840cbe6955a80631e05a0fb7f93313b5c23be534845b",
+        "size_in_bytes": 3567
+      },
+      {
+        "_path": "site-packages/pandas_profiling/controller/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "74874f6b08103ee99a2003ee75862461cb1fd6563c081151b6995e3b91c8e4df",
+        "sha256_in_prefix": "74874f6b08103ee99a2003ee75862461cb1fd6563c081151b6995e3b91c8e4df",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/pandas_profiling/controller/console.py",
+        "path_type": "hardlink",
+        "sha256": "c00e76980c8046593aeb59c37821eb6c78befaf60c328f9d9214e0a409e39df1",
+        "sha256_in_prefix": "c00e76980c8046593aeb59c37821eb6c78befaf60c328f9d9214e0a409e39df1",
+        "size_in_bytes": 2873
+      },
+      {
+        "_path": "site-packages/pandas_profiling/controller/pandas_decorator.py",
+        "path_type": "hardlink",
+        "sha256": "b0db5bd88866760b2bba645e3a58393a26ffc7387ab1938971711ff98900a84b",
+        "sha256_in_prefix": "b0db5bd88866760b2bba645e3a58393a26ffc7387ab1938971711ff98900a84b",
+        "size_in_bytes": 495
+      },
+      {
+        "_path": "site-packages/pandas_profiling/model/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "28ad9473d0aa272719eb1f86013c322d1404d487b853e7133a68d2c9888b594d",
+        "sha256_in_prefix": "28ad9473d0aa272719eb1f86013c322d1404d487b853e7133a68d2c9888b594d",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "site-packages/pandas_profiling/model/base.py",
+        "path_type": "hardlink",
+        "sha256": "6fd48d2831172da0db96baae53eed7e61c9aa16580079763ae9d2575c2899469",
+        "sha256_in_prefix": "6fd48d2831172da0db96baae53eed7e61c9aa16580079763ae9d2575c2899469",
+        "size_in_bytes": 8418
+      },
+      {
+        "_path": "site-packages/pandas_profiling/model/correlations.py",
+        "path_type": "hardlink",
+        "sha256": "d37e9b72235f984187b41d7163151f4c98f8d27b3f48ed3ca979b0faeb2bea7f",
+        "sha256_in_prefix": "d37e9b72235f984187b41d7163151f4c98f8d27b3f48ed3ca979b0faeb2bea7f",
+        "size_in_bytes": 8128
+      },
+      {
+        "_path": "site-packages/pandas_profiling/model/describe.py",
+        "path_type": "hardlink",
+        "sha256": "8e163b4cb42a81505f08221c099bcc5f037f9a418ff695199da58aa0ba3f41cf",
+        "sha256_in_prefix": "8e163b4cb42a81505f08221c099bcc5f037f9a418ff695199da58aa0ba3f41cf",
+        "size_in_bytes": 5623
+      },
+      {
+        "_path": "site-packages/pandas_profiling/model/messages.py",
+        "path_type": "hardlink",
+        "sha256": "733353eb0abe692595bfb1462f8f5d44773b1591aa752b4215f047bfc983f121",
+        "sha256_in_prefix": "733353eb0abe692595bfb1462f8f5d44773b1591aa752b4215f047bfc983f121",
+        "size_in_bytes": 9230
+      },
+      {
+        "_path": "site-packages/pandas_profiling/model/sample.py",
+        "path_type": "hardlink",
+        "sha256": "ff1d41cdb30094da31ac977d4aeb3cc59f492570ac9b0e8b4bbc4cce867d8e9c",
+        "sha256_in_prefix": "ff1d41cdb30094da31ac977d4aeb3cc59f492570ac9b0e8b4bbc4cce867d8e9c",
+        "size_in_bytes": 756
+      },
+      {
+        "_path": "site-packages/pandas_profiling/model/summary.py",
+        "path_type": "hardlink",
+        "sha256": "38cdbd223e9f76e8f1a7292af071f2d4cc1c7829572805b5eb1d113d790ff0ac",
+        "sha256_in_prefix": "38cdbd223e9f76e8f1a7292af071f2d4cc1c7829572805b5eb1d113d790ff0ac",
+        "size_in_bytes": 24756
+      },
+      {
+        "_path": "site-packages/pandas_profiling/profile_report.py",
+        "path_type": "hardlink",
+        "sha256": "6bcc568387303cc408fd9e3e8098f3d36bde1d6834af743724eb2a52e467f1bd",
+        "sha256_in_prefix": "6bcc568387303cc408fd9e3e8098f3d36bde1d6834af743724eb2a52e467f1bd",
+        "size_in_bytes": 15566
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c25c6cd10738569adb0db760ae65880338bdd1a40ab263b95cbdb3a0651d71b1",
+        "sha256_in_prefix": "c25c6cd10738569adb0db760ae65880338bdd1a40ab263b95cbdb3a0651d71b1",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/formatters.py",
+        "path_type": "hardlink",
+        "sha256": "f80219d10f3b21eff629cfea191c63d60dedf2ddad4b9aadeec6930bd03ca18f",
+        "sha256_in_prefix": "f80219d10f3b21eff629cfea191c63d60dedf2ddad4b9aadeec6930bd03ca18f",
+        "size_in_bytes": 8070
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "93e77579ccce0a5204bebc66c145a2a7a71b5eff4208aa691445097d6422c147",
+        "sha256_in_prefix": "93e77579ccce0a5204bebc66c145a2a7a71b5eff4208aa691445097d6422c147",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ae5124129ac65ec6d8f1cd3d00c548f369127c38b7eff75753017d1767ba4ccb",
+        "sha256_in_prefix": "ae5124129ac65ec6d8f1cd3d00c548f369127c38b7eff75753017d1767ba4ccb",
+        "size_in_bytes": 1044
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/collapse.py",
+        "path_type": "hardlink",
+        "sha256": "f922636f8f3738d4222f57e5b7a2205b19bb8adbd7a2badb963974582c189ef0",
+        "sha256_in_prefix": "f922636f8f3738d4222f57e5b7a2205b19bb8adbd7a2badb963974582c189ef0",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/container.py",
+        "path_type": "hardlink",
+        "sha256": "ac424b8b82b73966638af74070b5203aae77ff8726d183fd73b78d3b5549c167",
+        "sha256_in_prefix": "ac424b8b82b73966638af74070b5203aae77ff8726d183fd73b78d3b5549c167",
+        "size_in_bytes": 1108
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/duplicate.py",
+        "path_type": "hardlink",
+        "sha256": "cf7a2eec24dd116880219db495a099a551e143e1a958587e3b87fd1dadcc892b",
+        "sha256_in_prefix": "cf7a2eec24dd116880219db495a099a551e143e1a958587e3b87fd1dadcc892b",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/frequency_table.py",
+        "path_type": "hardlink",
+        "sha256": "e8c82aefb45de39ab0a4df48cf6dce5c844b4f9c2730234a69a30081a0dab782",
+        "sha256_in_prefix": "e8c82aefb45de39ab0a4df48cf6dce5c844b4f9c2730234a69a30081a0dab782",
+        "size_in_bytes": 402
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/frequency_table_small.py",
+        "path_type": "hardlink",
+        "sha256": "df3531310712bab74ab3dbc40b60fb34421840ec2c3c04032ebb3fe4934bee53",
+        "sha256_in_prefix": "df3531310712bab74ab3dbc40b60fb34421840ec2c3c04032ebb3fe4934bee53",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/html.py",
+        "path_type": "hardlink",
+        "sha256": "7a7d10abcda546a2908a9b03ddca5a72488fac707ee5c4d801412011c8f0929b",
+        "sha256_in_prefix": "7a7d10abcda546a2908a9b03ddca5a72488fac707ee5c4d801412011c8f0929b",
+        "size_in_bytes": 351
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/image.py",
+        "path_type": "hardlink",
+        "sha256": "875c8554c95893b0983506c91b879eaa2dccb2df3e5d4226db723f9a78a38d66",
+        "sha256_in_prefix": "875c8554c95893b0983506c91b879eaa2dccb2df3e5d4226db723f9a78a38d66",
+        "size_in_bytes": 571
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/item_renderer.py",
+        "path_type": "hardlink",
+        "sha256": "97982339ff4423f1e3b9ff64127a9a608208b316c60e4ac6c68318f709b7ec67",
+        "sha256_in_prefix": "97982339ff4423f1e3b9ff64127a9a608208b316c60e4ac6c68318f709b7ec67",
+        "size_in_bytes": 316
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/renderable.py",
+        "path_type": "hardlink",
+        "sha256": "69cd0404c8c6ff47e87ad95aca0a6908a9d960be6ed37e92b97b15277fd51d5e",
+        "sha256_in_prefix": "69cd0404c8c6ff47e87ad95aca0a6908a9d960be6ed37e92b97b15277fd51d5e",
+        "size_in_bytes": 862
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/root.py",
+        "path_type": "hardlink",
+        "sha256": "8597590c0d379ed423766612049ed50780c5fb88f35a75db76de802ea39d1276",
+        "sha256_in_prefix": "8597590c0d379ed423766612049ed50780c5fb88f35a75db76de802ea39d1276",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/sample.py",
+        "path_type": "hardlink",
+        "sha256": "d762c22c2a4a742aa188685b6b1387473310109131541f7f31486009efa3af77",
+        "sha256_in_prefix": "d762c22c2a4a742aa188685b6b1387473310109131541f7f31486009efa3af77",
+        "size_in_bytes": 430
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/table.py",
+        "path_type": "hardlink",
+        "sha256": "6b4e77b40f544d5de3e2fa13b4eec7239f04240451c391651c2ac246b65077bd",
+        "sha256_in_prefix": "6b4e77b40f544d5de3e2fa13b4eec7239f04240451c391651c2ac246b65077bd",
+        "size_in_bytes": 429
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/toggle_button.py",
+        "path_type": "hardlink",
+        "sha256": "f0cc112bc9611b19173609dcf9563396762abe969a6782ceceae834c88733370",
+        "sha256_in_prefix": "f0cc112bc9611b19173609dcf9563396762abe969a6782ceceae834c88733370",
+        "size_in_bytes": 370
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/variable.py",
+        "path_type": "hardlink",
+        "sha256": "04264a4f2d9baec5d51c5a463964022288f868a83882823231c86c365f4f5ae3",
+        "sha256_in_prefix": "04264a4f2d9baec5d51c5a463964022288f868a83882823231c86c365f4f5ae3",
+        "size_in_bytes": 1211
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/variable_info.py",
+        "path_type": "hardlink",
+        "sha256": "e043add0ebd6a387613ae5e1ae3fc168c37687b07811ff1a1767b26ac3386822",
+        "sha256_in_prefix": "e043add0ebd6a387613ae5e1ae3fc168c37687b07811ff1a1767b26ac3386822",
+        "size_in_bytes": 663
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/core/warnings.py",
+        "path_type": "hardlink",
+        "sha256": "87555bfe3422946b96003085a37309f99e0e92931fa05eb953342b3c21b96987",
+        "sha256_in_prefix": "87555bfe3422946b96003085a37309f99e0e92931fa05eb953342b3c21b96987",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cd05ff0cf0848553c53eec4484050c61166abb99f68027dd35f43fb220d97b3c",
+        "sha256_in_prefix": "cd05ff0cf0848553c53eec4484050c61166abb99f68027dd35f43fb220d97b3c",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/flavours.py",
+        "path_type": "hardlink",
+        "sha256": "4c18ff0824ab4a678384ae2689d83e203f24b359a37c4d1e4ccf5768e3db37d1",
+        "sha256_in_prefix": "4c18ff0824ab4a678384ae2689d83e203f24b359a37c4d1e4ccf5768e3db37d1",
+        "size_in_bytes": 4936
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5ee0a6ef9e783bd6b5f12f4e8df054787ca6bdb7b468848b0bb4cb434e8cfb28",
+        "sha256_in_prefix": "5ee0a6ef9e783bd6b5f12f4e8df054787ca6bdb7b468848b0bb4cb434e8cfb28",
+        "size_in_bytes": 1253
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/collapse.py",
+        "path_type": "hardlink",
+        "sha256": "0565a59ba6f1e4096c203f0de00a947b79f3e578b9c435552a3e373f36b38a8f",
+        "sha256_in_prefix": "0565a59ba6f1e4096c203f0de00a947b79f3e578b9c435552a3e373f36b38a8f",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/container.py",
+        "path_type": "hardlink",
+        "sha256": "ce5c70da294985a3d90eac01582eaa890b8bc412f1640559c851a6cec44f397c",
+        "sha256_in_prefix": "ce5c70da294985a3d90eac01582eaa890b8bc412f1640559c851a6cec44f397c",
+        "size_in_bytes": 1724
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/duplicate.py",
+        "path_type": "hardlink",
+        "sha256": "d6feaf273779bd0409d3807bbf8154f310af63ac4240b45a050ed25afe26725b",
+        "sha256_in_prefix": "d6feaf273779bd0409d3807bbf8154f310af63ac4240b45a050ed25afe26725b",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/frequency_table.py",
+        "path_type": "hardlink",
+        "sha256": "9e5b39aa49b931350b7ae2ffc83b1a6a5bf1062a54fdd1595d44ffc4d831e01a",
+        "sha256_in_prefix": "9e5b39aa49b931350b7ae2ffc83b1a6a5bf1062a54fdd1595d44ffc4d831e01a",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/frequency_table_small.py",
+        "path_type": "hardlink",
+        "sha256": "34c017a8fa8f53e56cd7f1b17d4aab2cdc060bc8f76ed9fc25c172882f8e62e2",
+        "sha256_in_prefix": "34c017a8fa8f53e56cd7f1b17d4aab2cdc060bc8f76ed9fc25c172882f8e62e2",
+        "size_in_bytes": 310
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/html.py",
+        "path_type": "hardlink",
+        "sha256": "f639c229866570ee4e13550bf4b123e0ee07d2d2cac072c523902e0ccf276f20",
+        "sha256_in_prefix": "f639c229866570ee4e13550bf4b123e0ee07d2d2cac072c523902e0ccf276f20",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/image.py",
+        "path_type": "hardlink",
+        "sha256": "140580b8e291c0487c7c188ed7186f975aa494017bf113f33a93b95adf171292",
+        "sha256_in_prefix": "140580b8e291c0487c7c188ed7186f975aa494017bf113f33a93b95adf171292",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/root.py",
+        "path_type": "hardlink",
+        "sha256": "948db6965238d28f7dc9cfbc5506295001d3fc5e2b44e26aa1645bb4721e449b",
+        "sha256_in_prefix": "948db6965238d28f7dc9cfbc5506295001d3fc5e2b44e26aa1645bb4721e449b",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/sample.py",
+        "path_type": "hardlink",
+        "sha256": "215f463d0b2245165970cf46f6fbf6518bdd0f5f0f88d109161232822fa94189",
+        "sha256_in_prefix": "215f463d0b2245165970cf46f6fbf6518bdd0f5f0f88d109161232822fa94189",
+        "size_in_bytes": 423
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/table.py",
+        "path_type": "hardlink",
+        "sha256": "d39c6c39126fbef60694dd1a14d54cdbd200e78e0036afb6e7a13a4390ff6a9e",
+        "sha256_in_prefix": "d39c6c39126fbef60694dd1a14d54cdbd200e78e0036afb6e7a13a4390ff6a9e",
+        "size_in_bytes": 258
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates.py",
+        "path_type": "hardlink",
+        "sha256": "090bb80790bb0b9d4ab64199dd28d7698c4df1a7654ed223d12b09c2fb19b409",
+        "sha256_in_prefix": "090bb80790bb0b9d4ab64199dd28d7698c4df1a7654ed223d12b09c2fb19b409",
+        "size_in_bytes": 2647
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/collapse.html",
+        "path_type": "hardlink",
+        "sha256": "d79bd4ee5ec4f430fea43e0f6072a9dc43ac43d66cfe8cbcb0c04776f1b2d61b",
+        "sha256_in_prefix": "d79bd4ee5ec4f430fea43e0f6072a9dc43ac43d66cfe8cbcb0c04776f1b2d61b",
+        "size_in_bytes": 371
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/diagram.html",
+        "path_type": "hardlink",
+        "sha256": "413aa569abb2c35c8545d3e6ee058f48685765642c9437a6e1fba164eed08848",
+        "sha256_in_prefix": "413aa569abb2c35c8545d3e6ee058f48685765642c9437a6e1fba164eed08848",
+        "size_in_bytes": 347
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/duplicate.html",
+        "path_type": "hardlink",
+        "sha256": "e8318801bd96426bb744f497f154d9a16201cd58dc788de4dfc6d4e559518d85",
+        "sha256_in_prefix": "e8318801bd96426bb744f497f154d9a16201cd58dc788de4dfc6d4e559518d85",
+        "size_in_bytes": 115
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/frequency_table.html",
+        "path_type": "hardlink",
+        "sha256": "7b78eaee0722297e8b90aa1bd52b8c4d815956229cde6f940efddb157d7efcf7",
+        "sha256_in_prefix": "7b78eaee0722297e8b90aa1bd52b8c4d815956229cde6f940efddb157d7efcf7",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/frequency_table_small.html",
+        "path_type": "hardlink",
+        "sha256": "64441c6b0cc70848f5722fd1b04bbc46584f488589b51886427f9c55d970ec19",
+        "sha256_in_prefix": "64441c6b0cc70848f5722fd1b04bbc46584f488589b51886427f9c55d970ec19",
+        "size_in_bytes": 1239
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/report.html",
+        "path_type": "hardlink",
+        "sha256": "0cfa5028a4c4d521781e7a04b5b4136f0bc2ce79f29392ec0fced13329e32f6b",
+        "sha256_in_prefix": "0cfa5028a4c4d521781e7a04b5b4136f0bc2ce79f29392ec0fced13329e32f6b",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/sample.html",
+        "path_type": "hardlink",
+        "sha256": "1deb19b7f11f789b70ec851cfdcf70586aaa2a4b62c679189a298ef58e4fe35e",
+        "sha256_in_prefix": "1deb19b7f11f789b70ec851cfdcf70586aaa2a4b62c679189a298ef58e4fe35e",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/grid.html",
+        "path_type": "hardlink",
+        "sha256": "ae866c649c5855cbc4be2a1f8821802285429c8c5de43ab17af0bc13b9051dcd",
+        "sha256_in_prefix": "ae866c649c5855cbc4be2a1f8821802285429c8c5de43ab17af0bc13b9051dcd",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/list.html",
+        "path_type": "hardlink",
+        "sha256": "8d0509b95a1db5fa82f9c55fd8c4502fdffac2bf096063c5a5f32ce502e7e331",
+        "sha256_in_prefix": "8d0509b95a1db5fa82f9c55fd8c4502fdffac2bf096063c5a5f32ce502e7e331",
+        "size_in_bytes": 165
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/named_list.html",
+        "path_type": "hardlink",
+        "sha256": "017ba5af66d52c4572b50b5c53fe89c280fd7d04e4cb71d63fe5e874591678a7",
+        "sha256_in_prefix": "017ba5af66d52c4572b50b5c53fe89c280fd7d04e4cb71d63fe5e874591678a7",
+        "size_in_bytes": 213
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/sections.html",
+        "path_type": "hardlink",
+        "sha256": "3e12c0c3ab5eb2c80c6ea494b22a625ab7b45661c2aa758fd9d824951f2caab1",
+        "sha256_in_prefix": "3e12c0c3ab5eb2c80c6ea494b22a625ab7b45661c2aa758fd9d824951f2caab1",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/select.html",
+        "path_type": "hardlink",
+        "sha256": "5cac05faa4cbe1089abc4b0a51d155ab9ef9c4864af68ef43cd7a93cea6eea52",
+        "sha256_in_prefix": "5cac05faa4cbe1089abc4b0a51d155ab9ef9c4864af68ef43cd7a93cea6eea52",
+        "size_in_bytes": 1449
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/sequence/tabs.html",
+        "path_type": "hardlink",
+        "sha256": "a58a02db6744d960b818a058ef4d7db104097f500c3d8bc851f51cc07b26bc99",
+        "sha256_in_prefix": "a58a02db6744d960b818a058ef4d7db104097f500c3d8bc851f51cc07b26bc99",
+        "size_in_bytes": 1125
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/table.html",
+        "path_type": "hardlink",
+        "sha256": "6f4121746a6b2a1d5dcf36a02d7d60dc5b93dfbdcf835755e2a32687d883cbee",
+        "sha256_in_prefix": "6f4121746a6b2a1d5dcf36a02d7d60dc5b93dfbdcf835755e2a32687d883cbee",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/toggle_button.html",
+        "path_type": "hardlink",
+        "sha256": "ad8b2aad54a4b78a4fd64f2944d26f807491428aa787db6bcb0fd00c7ec7525f",
+        "sha256_in_prefix": "ad8b2aad54a4b78a4fd64f2944d26f807491428aa787db6bcb0fd00c7ec7525f",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/variable.html",
+        "path_type": "hardlink",
+        "sha256": "0203cfa8fe1f04561242a5f39503221b0465d19e9447023278e145271634ce1b",
+        "sha256_in_prefix": "0203cfa8fe1f04561242a5f39503221b0465d19e9447023278e145271634ce1b",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/variable_info.html",
+        "path_type": "hardlink",
+        "sha256": "9c04041b7266b6b4fc6bc1bd8d53cda5f903c852ed304688a69ec03017855d16",
+        "sha256_in_prefix": "9c04041b7266b6b4fc6bc1bd8d53cda5f903c852ed304688a69ec03017855d16",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings.html",
+        "path_type": "hardlink",
+        "sha256": "ee1abaea353fbdd299adca7a67393ac7ea6aae1ec0d5cb08e10e9166e1d89171",
+        "sha256_in_prefix": "ee1abaea353fbdd299adca7a67393ac7ea6aae1ec0d5cb08e10e9166e1d89171",
+        "size_in_bytes": 667
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_constant.html",
+        "path_type": "hardlink",
+        "sha256": "e082a7960089e8f5474350a68bb6f348cce93d3091bb7bc7a08b143bd6a03df4",
+        "sha256_in_prefix": "e082a7960089e8f5474350a68bb6f348cce93d3091bb7bc7a08b143bd6a03df4",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_constant_length.html",
+        "path_type": "hardlink",
+        "sha256": "e8cf0c00774213bc215f1387e23207897f2accacc9aeadeb17517a69e9b9810d",
+        "sha256_in_prefix": "e8cf0c00774213bc215f1387e23207897f2accacc9aeadeb17517a69e9b9810d",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_duplicates.html",
+        "path_type": "hardlink",
+        "sha256": "049fce9ede1bf29fa5c3d1ff08f65684c5577cad628365958e5bf72ca03a3474",
+        "sha256_in_prefix": "049fce9ede1bf29fa5c3d1ff08f65684c5577cad628365958e5bf72ca03a3474",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_high_cardinality.html",
+        "path_type": "hardlink",
+        "sha256": "b273ef604463dddb270a317c031ba3b547a7b83e2ba251b0d4d638361d490ec5",
+        "sha256_in_prefix": "b273ef604463dddb270a317c031ba3b547a7b83e2ba251b0d4d638361d490ec5",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_high_correlation.html",
+        "path_type": "hardlink",
+        "sha256": "3dd8305726f2c45e97059e49f5568e986b067de8d09a91a767f6742b6e1fb30d",
+        "sha256_in_prefix": "3dd8305726f2c45e97059e49f5568e986b067de8d09a91a767f6742b6e1fb30d",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_infinite.html",
+        "path_type": "hardlink",
+        "sha256": "f72e82a7dcdf625a6bbc095fb3426d06e6fc4be7bc7a4aab9a623a348689073c",
+        "sha256_in_prefix": "f72e82a7dcdf625a6bbc095fb3426d06e6fc4be7bc7a4aab9a623a348689073c",
+        "size_in_bytes": 205
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_missing.html",
+        "path_type": "hardlink",
+        "sha256": "07e2832fec989e6f16fe93f9f589e7e79b5d1bcd336f2b72582d9f048a084edf",
+        "sha256_in_prefix": "07e2832fec989e6f16fe93f9f589e7e79b5d1bcd336f2b72582d9f048a084edf",
+        "size_in_bytes": 202
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_skewed.html",
+        "path_type": "hardlink",
+        "sha256": "350291acc20cfeafbfd4e1725a4f135228f2ae4b54e07048c1fd1195023cb9ea",
+        "sha256_in_prefix": "350291acc20cfeafbfd4e1725a4f135228f2ae4b54e07048c1fd1195023cb9ea",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_truncated.html",
+        "path_type": "hardlink",
+        "sha256": "b11a0e70e1c2a46e6280edd350914003763ebcb782fd8feece8780ab08e3c666",
+        "sha256_in_prefix": "b11a0e70e1c2a46e6280edd350914003763ebcb782fd8feece8780ab08e3c666",
+        "size_in_bytes": 207
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_type_date.html",
+        "path_type": "hardlink",
+        "sha256": "8e3055f05eaa4ecb23db4f43924ecb8da6df3b2b9dcc5bab5f3f9d2ce6c07119",
+        "sha256_in_prefix": "8e3055f05eaa4ecb23db4f43924ecb8da6df3b2b9dcc5bab5f3f9d2ce6c07119",
+        "size_in_bytes": 198
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_uniform.html",
+        "path_type": "hardlink",
+        "sha256": "2ef4aec1cca7ee5227a01af115e9d95b1fd0609cb5674b0f4504fb51cc8ca8ca",
+        "sha256_in_prefix": "2ef4aec1cca7ee5227a01af115e9d95b1fd0609cb5674b0f4504fb51cc8ca8ca",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_unique.html",
+        "path_type": "hardlink",
+        "sha256": "20d74c5099cf7f04712dec3f7677ffdf59df4a51665f20e8091b25eb444825fc",
+        "sha256_in_prefix": "20d74c5099cf7f04712dec3f7677ffdf59df4a51665f20e8091b25eb444825fc",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_unsupported.html",
+        "path_type": "hardlink",
+        "sha256": "b2f7d4a3924cbdb8c0d8bf733461966842f176f3446312c0980354a28cccd095",
+        "sha256_in_prefix": "b2f7d4a3924cbdb8c0d8bf733461966842f176f3446312c0980354a28cccd095",
+        "size_in_bytes": 170
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/warnings/warning_zeros.html",
+        "path_type": "hardlink",
+        "sha256": "5069dd14cbc1ccd5d1571ff159b8763c500d47e86ed86ece8a1fdd6e858aafaa",
+        "sha256_in_prefix": "5069dd14cbc1ccd5d1571ff159b8763c500d47e86ed86ece8a1fdd6e858aafaa",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap-theme.min.css",
+        "path_type": "hardlink",
+        "sha256": "653e073e97423adda5bc3917a241ee8497dd38a48f14bcde0098a4e54fd0fa5e",
+        "sha256_in_prefix": "653e073e97423adda5bc3917a241ee8497dd38a48f14bcde0098a4e54fd0fa5e",
+        "size_in_bytes": 23409
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "f75e846cc83bd11432f4b1e21a45f31bc85283d11d372f7b19accd1bf6a2635c",
+        "sha256_in_prefix": "f75e846cc83bd11432f4b1e21a45f31bc85283d11d372f7b19accd1bf6a2635c",
+        "size_in_bytes": 121200
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/bootstrap.min.js",
+        "path_type": "hardlink",
+        "sha256": "53964478a7c634e8dad34ecc303dd8048d00dce4993906de1bacf67f663486ef",
+        "sha256_in_prefix": "53964478a7c634e8dad34ecc303dd8048d00dce4993906de1bacf67f663486ef",
+        "size_in_bytes": 37045
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/flatly.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "af55a28d6fd234c80ec24e4b0e4ed0447afaa156186d858cc3fd643977d825f8",
+        "sha256_in_prefix": "af55a28d6fd234c80ec24e4b0e4ed0447afaa156186d858cc3fd643977d825f8",
+        "size_in_bytes": 127321
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/jquery-1.12.4.min.js",
+        "path_type": "hardlink",
+        "sha256": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+        "sha256_in_prefix": "668b046d12db350ccba6728890476b3efee53b2f42dbb84743e5e9f1ae0cc404",
+        "size_in_bytes": 97163
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/script.js",
+        "path_type": "hardlink",
+        "sha256": "cff9d93d0b66163950ee28ff559fd21cacc7e95a05bbb3a4aaff548bcc6770ab",
+        "sha256_in_prefix": "cff9d93d0b66163950ee28ff559fd21cacc7e95a05bbb3a4aaff548bcc6770ab",
+        "size_in_bytes": 491
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/style.css",
+        "path_type": "hardlink",
+        "sha256": "1c7358576ad1e8983d795c02609a5213b91b1f699a93965d75182d868d8d731f",
+        "sha256_in_prefix": "1c7358576ad1e8983d795c02609a5213b91b1f699a93965d75182d868d8d731f",
+        "size_in_bytes": 5225
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/assets/united.bootstrap.min.css",
+        "path_type": "hardlink",
+        "sha256": "218188d28bddb6f4e7c35f69f2b1ba8d98e6957fb9c7ee2bc3db80864fb9382e",
+        "sha256_in_prefix": "218188d28bddb6f4e7c35f69f2b1ba8d98e6957fb9c7ee2bc3db80864fb9382e",
+        "size_in_bytes": 122851
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/footer.html",
+        "path_type": "hardlink",
+        "sha256": "60a0c0843fcaeb175d56b3aeabe1f8d40a7b7a9003d2e0581be64a9cc9946f0d",
+        "sha256_in_prefix": "60a0c0843fcaeb175d56b3aeabe1f8d40a7b7a9003d2e0581be64a9cc9946f0d",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/javascript.html",
+        "path_type": "hardlink",
+        "sha256": "aaf1ea0a63a7050b290982cc75500d75a5749f973e19c9ab66b466e5f31553a0",
+        "sha256_in_prefix": "aaf1ea0a63a7050b290982cc75500d75a5749f973e19c9ab66b466e5f31553a0",
+        "size_in_bytes": 904
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/navigation.html",
+        "path_type": "hardlink",
+        "sha256": "f855bb35770e499ef21fab49ebf1e989cd38e52419caa1bef66baa34f7f0177e",
+        "sha256_in_prefix": "f855bb35770e499ef21fab49ebf1e989cd38e52419caa1bef66baa34f7f0177e",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/templates/wrapper/style.html",
+        "path_type": "hardlink",
+        "sha256": "af23804f523781f45547b8cca76e8a6e6afc0920effb39d4d94d5cec1b4e3386",
+        "sha256_in_prefix": "af23804f523781f45547b8cca76e8a6e6afc0920effb39d4d94d5cec1b4e3386",
+        "size_in_bytes": 2279
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/toggle_button.py",
+        "path_type": "hardlink",
+        "sha256": "d6e3b45ec22c6ca435f4fdebec022639ec60f7b091a597c639712b1f75e2e9c2",
+        "sha256_in_prefix": "d6e3b45ec22c6ca435f4fdebec022639ec60f7b091a597c639712b1f75e2e9c2",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/variable.py",
+        "path_type": "hardlink",
+        "sha256": "65127c63336256260d1d01befe2dc020000f5dea6356078cf937858870f4ecc5",
+        "sha256_in_prefix": "65127c63336256260d1d01befe2dc020000f5dea6356078cf937858870f4ecc5",
+        "size_in_bytes": 264
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/variable_info.py",
+        "path_type": "hardlink",
+        "sha256": "e96a52d5dada1a5f97126872fb01ecdec30fb34a9c1c595fdd4d10fa3ba27d74",
+        "sha256_in_prefix": "e96a52d5dada1a5f97126872fb01ecdec30fb34a9c1c595fdd4d10fa3ba27d74",
+        "size_in_bytes": 281
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/html/warnings.py",
+        "path_type": "hardlink",
+        "sha256": "5a2491c1662623f1c75ae8dec808410873f628a34fe7d70f93fcb39272279620",
+        "sha256_in_prefix": "5a2491c1662623f1c75ae8dec808410873f628a34fe7d70f93fcb39272279620",
+        "size_in_bytes": 814
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6a5810ff322ecf87669c6598978a585149348cac231083639b5b982bfc10a266",
+        "sha256_in_prefix": "6a5810ff322ecf87669c6598978a585149348cac231083639b5b982bfc10a266",
+        "size_in_bytes": 1197
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/app.py",
+        "path_type": "hardlink",
+        "sha256": "48fb2f2cc8e4cbede375fc31764f1eff43bbb13e4839d260e067127da7de9edd",
+        "sha256_in_prefix": "48fb2f2cc8e4cbede375fc31764f1eff43bbb13e4839d260e067127da7de9edd",
+        "size_in_bytes": 17131
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/collapse.py",
+        "path_type": "hardlink",
+        "sha256": "8337529b3931f70cd477465a510036a5f6ff792b038201c04a1e22e7033099ef",
+        "sha256_in_prefix": "8337529b3931f70cd477465a510036a5f6ff792b038201c04a1e22e7033099ef",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/container.py",
+        "path_type": "hardlink",
+        "sha256": "dfe32e1f855bf12316eb8d5f4761a40fcdf075cf571fe797f0a9e855ddd731f3",
+        "sha256_in_prefix": "dfe32e1f855bf12316eb8d5f4761a40fcdf075cf571fe797f0a9e855ddd731f3",
+        "size_in_bytes": 1314
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/duplicate.py",
+        "path_type": "hardlink",
+        "sha256": "340d44297d24add6cbfe848aaeefe06c87f49e8258b87452a7e104b01a12d77e",
+        "sha256_in_prefix": "340d44297d24add6cbfe848aaeefe06c87f49e8258b87452a7e104b01a12d77e",
+        "size_in_bytes": 208
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/frequency_table.py",
+        "path_type": "hardlink",
+        "sha256": "c0d46f2996848fa1603a0ec8737bfcdf73d4eabbc9a1f7f73b8c3dc30482deab",
+        "sha256_in_prefix": "c0d46f2996848fa1603a0ec8737bfcdf73d4eabbc9a1f7f73b8c3dc30482deab",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/frequency_table_small.py",
+        "path_type": "hardlink",
+        "sha256": "ca37dbe31a6fe9bdb419764f3200aae0078e40f3e9f2996cb528aa068439f447",
+        "sha256_in_prefix": "ca37dbe31a6fe9bdb419764f3200aae0078e40f3e9f2996cb528aa068439f447",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/html.py",
+        "path_type": "hardlink",
+        "sha256": "dceb2d376040636200eefde43f2ef0c5e45f9c9a71124093dbc051c7bbac5a70",
+        "sha256_in_prefix": "dceb2d376040636200eefde43f2ef0c5e45f9c9a71124093dbc051c7bbac5a70",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/image.py",
+        "path_type": "hardlink",
+        "sha256": "86403c0d23994cdc8fc442ec6b060dd5d75217efd7eadb579d050745416a8984",
+        "sha256_in_prefix": "86403c0d23994cdc8fc442ec6b060dd5d75217efd7eadb579d050745416a8984",
+        "size_in_bytes": 32660
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/root.py",
+        "path_type": "hardlink",
+        "sha256": "b73bc3ff790698e520aa9088aa65f1d4704893c340eaf0aeb0017fc5aa67b9ef",
+        "sha256_in_prefix": "b73bc3ff790698e520aa9088aa65f1d4704893c340eaf0aeb0017fc5aa67b9ef",
+        "size_in_bytes": 194
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/sample.py",
+        "path_type": "hardlink",
+        "sha256": "05d8fdb4a046f02e44b4d1c672911999eb2716c9a88d1c976c1b4cbc9b9a993a",
+        "sha256_in_prefix": "05d8fdb4a046f02e44b4d1c672911999eb2716c9a88d1c976c1b4cbc9b9a993a",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/table.py",
+        "path_type": "hardlink",
+        "sha256": "cc221244a26b4d83b7a22d930ce90c67ee85e5b70d1507c818b87a44396521dd",
+        "sha256_in_prefix": "cc221244a26b4d83b7a22d930ce90c67ee85e5b70d1507c818b87a44396521dd",
+        "size_in_bytes": 823
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/toggle_button.py",
+        "path_type": "hardlink",
+        "sha256": "70d04fb51138214de77d880f99002b913e68bc509ed9a1b3e743b39c08a6b10f",
+        "sha256_in_prefix": "70d04fb51138214de77d880f99002b913e68bc509ed9a1b3e743b39c08a6b10f",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/variable.py",
+        "path_type": "hardlink",
+        "sha256": "41e7478a90d7dc5e1e9e437144c93ac9e5d6a557f4b368905aaf06d21cdd8a69",
+        "sha256_in_prefix": "41e7478a90d7dc5e1e9e437144c93ac9e5d6a557f4b368905aaf06d21cdd8a69",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/variable_info.py",
+        "path_type": "hardlink",
+        "sha256": "8a9510b9b1f7ba5420c651d13876977219bc0f26f6f58655288b37ede6ecbb20",
+        "sha256_in_prefix": "8a9510b9b1f7ba5420c651d13876977219bc0f26f6f58655288b37ede6ecbb20",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/qt/warnings.py",
+        "path_type": "hardlink",
+        "sha256": "0115a3a775a6aab2bab733a2ed6ac4af1ba6b781f83d22ed5902f2fb4131de9a",
+        "sha256_in_prefix": "0115a3a775a6aab2bab733a2ed6ac4af1ba6b781f83d22ed5902f2fb4131de9a",
+        "size_in_bytes": 199
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/streamlit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "41fd92fca3984aafc41333707119f2bb36db585245bb383787a277f5654b86cb",
+        "sha256_in_prefix": "41fd92fca3984aafc41333707119f2bb36db585245bb383787a277f5654b86cb",
+        "size_in_bytes": 44
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cb37b98e96b898522511ec601d59eee98157e0194c352e5d331f5f987e29c20d",
+        "sha256_in_prefix": "cb37b98e96b898522511ec601d59eee98157e0194c352e5d331f5f987e29c20d",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/collapse.py",
+        "path_type": "hardlink",
+        "sha256": "74b236974af56d1fc6bbacfd84085c89ede51313d11f09bbcae725f3c19eb2d8",
+        "sha256_in_prefix": "74b236974af56d1fc6bbacfd84085c89ede51313d11f09bbcae725f3c19eb2d8",
+        "size_in_bytes": 1262
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/container.py",
+        "path_type": "hardlink",
+        "sha256": "8fb89728e78c350dd72cd67a9ca7e01c5366c75f7d0c83e76414df5d6575b70a",
+        "sha256_in_prefix": "8fb89728e78c350dd72cd67a9ca7e01c5366c75f7d0c83e76414df5d6575b70a",
+        "size_in_bytes": 2548
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/duplicate.py",
+        "path_type": "hardlink",
+        "sha256": "1ee81b7a5072a27d1e4b900d278ecb388751b51b50821f43094c6b41053d2473",
+        "sha256_in_prefix": "1ee81b7a5072a27d1e4b900d278ecb388751b51b50821f43094c6b41053d2473",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/frequency_table.py",
+        "path_type": "hardlink",
+        "sha256": "a744cadb14821cad9fcefc3cfc3921c79a0f48693e8eb911a28e8a9451c728a4",
+        "sha256_in_prefix": "a744cadb14821cad9fcefc3cfc3921c79a0f48693e8eb911a28e8a9451c728a4",
+        "size_in_bytes": 1773
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/frequency_table_small.py",
+        "path_type": "hardlink",
+        "sha256": "1c1e6a26b34a48ff7260be3b624facdfd6123beff8a434006c62d453346ffa6f",
+        "sha256_in_prefix": "1c1e6a26b34a48ff7260be3b624facdfd6123beff8a434006c62d453346ffa6f",
+        "size_in_bytes": 2238
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/html.py",
+        "path_type": "hardlink",
+        "sha256": "13fbf93a1499510f823de2034d4983c2cd614e522b6d61a823ef2c75a40f544c",
+        "sha256_in_prefix": "13fbf93a1499510f823de2034d4983c2cd614e522b6d61a823ef2c75a40f544c",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/image.py",
+        "path_type": "hardlink",
+        "sha256": "fc31f0f8c48c8d7dc384cce099ca0f97ff3539f44d2eb5a919297835cd05d9c2",
+        "sha256_in_prefix": "fc31f0f8c48c8d7dc384cce099ca0f97ff3539f44d2eb5a919297835cd05d9c2",
+        "size_in_bytes": 828
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "dc6d6e83c9928dc6a738a4789b28e2ab87bbc86757bc5f1fde65de3181f30b47",
+        "sha256_in_prefix": "dc6d6e83c9928dc6a738a4789b28e2ab87bbc86757bc5f1fde65de3181f30b47",
+        "size_in_bytes": 1907
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/root.py",
+        "path_type": "hardlink",
+        "sha256": "0c5ff89b33e066134f47b180fc6d4eb356a9096c352200a3bf4f83a45beb5a90",
+        "sha256_in_prefix": "0c5ff89b33e066134f47b180fc6d4eb356a9096c352200a3bf4f83a45beb5a90",
+        "size_in_bytes": 260
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/sample.py",
+        "path_type": "hardlink",
+        "sha256": "ceac7c0162af4c719fa21dc8be1069b3f5832c9a55b2acd331d39610eca19359",
+        "sha256_in_prefix": "ceac7c0162af4c719fa21dc8be1069b3f5832c9a55b2acd331d39610eca19359",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/table.py",
+        "path_type": "hardlink",
+        "sha256": "d48d6c4db3757e1ed7c540271abbdb3f5e4fe9dfc48258dd4ff7966672fc7e61",
+        "sha256_in_prefix": "d48d6c4db3757e1ed7c540271abbdb3f5e4fe9dfc48258dd4ff7966672fc7e61",
+        "size_in_bytes": 988
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/toggle_button.py",
+        "path_type": "hardlink",
+        "sha256": "94627e4009d67e577d85f7337bd13bc9d50185a177b9f606c1e7422856107b6a",
+        "sha256_in_prefix": "94627e4009d67e577d85f7337bd13bc9d50185a177b9f606c1e7422856107b6a",
+        "size_in_bytes": 533
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/variable.py",
+        "path_type": "hardlink",
+        "sha256": "6adceb3f060789b5fdf74e7d7354ccd16dbc05ff7c7e0585f89eb58341faeb74",
+        "sha256_in_prefix": "6adceb3f060789b5fdf74e7d7354ccd16dbc05ff7c7e0585f89eb58341faeb74",
+        "size_in_bytes": 374
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/variable_info.py",
+        "path_type": "hardlink",
+        "sha256": "09a2c91390d335d288600ee5b56ca29d4931295bc0eeafbcc67ae3fdcb99dde2",
+        "sha256_in_prefix": "09a2c91390d335d288600ee5b56ca29d4931295bc0eeafbcc67ae3fdcb99dde2",
+        "size_in_bytes": 351
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/flavours/widget/warnings.py",
+        "path_type": "hardlink",
+        "sha256": "1300730bfc5939a6cf24a87e35db29351aef4ad34b929d495138df67f20d4d4c",
+        "sha256_in_prefix": "1300730bfc5939a6cf24a87e35db29351aef4ad34b929d495138df67f20d4d4c",
+        "size_in_bytes": 1571
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/presentation/frequency_table_utils.py",
+        "path_type": "hardlink",
+        "sha256": "14113cbeace41c3df241ece04362835d0671e889845244830f57d0e733897f0f",
+        "sha256_in_prefix": "14113cbeace41c3df241ece04362835d0671e889845244830f57d0e733897f0f",
+        "size_in_bytes": 3430
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3802ecfef5741d477fcbb808595df7b0ed21cac3e687a51fb0517ff7e81a8de",
+        "sha256_in_prefix": "e3802ecfef5741d477fcbb808595df7b0ed21cac3e687a51fb0517ff7e81a8de",
+        "size_in_bytes": 36
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/correlations.py",
+        "path_type": "hardlink",
+        "sha256": "38272243da4d47d94b00c2a42b8269f09b7ba1c2cf8b8a3f041af9192966dd2e",
+        "sha256_in_prefix": "38272243da4d47d94b00c2a42b8269f09b7ba1c2cf8b8a3f041af9192966dd2e",
+        "size_in_bytes": 5305
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/overview.py",
+        "path_type": "hardlink",
+        "sha256": "b103c989d0b18f2640762b205013239e0e4b61f15213dde1ad52e1146027dc1c",
+        "sha256_in_prefix": "b103c989d0b18f2640762b205013239e0e4b61f15213dde1ad52e1146027dc1c",
+        "size_in_bytes": 6774
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/report.py",
+        "path_type": "hardlink",
+        "sha256": "929f2260ddd98bdcd17a61547333750714c391f144d1fb0c2e961c0eb849bd76",
+        "sha256_in_prefix": "929f2260ddd98bdcd17a61547333750714c391f144d1fb0c2e961c0eb849bd76",
+        "size_in_bytes": 9889
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a88811f145125edada3a49dd9d3b324d355ba74c90c292d4e7610cefc76710bf",
+        "sha256_in_prefix": "a88811f145125edada3a49dd9d3b324d355ba74c90c292d4e7610cefc76710bf",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_boolean.py",
+        "path_type": "hardlink",
+        "sha256": "cf3bd8558daf5e00cb0dc57cc69c440f01c85f383b9d033b3ca37a1dd4bec5ea",
+        "sha256_in_prefix": "cf3bd8558daf5e00cb0dc57cc69c440f01c85f383b9d033b3ca37a1dd4bec5ea",
+        "size_in_bytes": 3043
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_categorical.py",
+        "path_type": "hardlink",
+        "sha256": "348979a9649002d3048427c0725c315c037f710fd907dce9db47be1cebb5804a",
+        "sha256_in_prefix": "348979a9649002d3048427c0725c315c037f710fd907dce9db47be1cebb5804a",
+        "size_in_bytes": 12442
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_common.py",
+        "path_type": "hardlink",
+        "sha256": "8249165ec2ffc98dc862030c8afff504058b94b2f6b2706c52bdd6b23de74aa2",
+        "sha256_in_prefix": "8249165ec2ffc98dc862030c8afff504058b94b2f6b2706c52bdd6b23de74aa2",
+        "size_in_bytes": 945
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_complex.py",
+        "path_type": "hardlink",
+        "sha256": "f6cf419875783ac167b338df610e2ec70bf327e03f95699933d2234ff4b6e986",
+        "sha256_in_prefix": "f6cf419875783ac167b338df610e2ec70bf327e03f95699933d2234ff4b6e986",
+        "size_in_bytes": 2298
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_count.py",
+        "path_type": "hardlink",
+        "sha256": "a432b770cf3342d838ee5c0155d0a19858c843d330ba9851d96fe4de2edaa3c5",
+        "sha256_in_prefix": "a432b770cf3342d838ee5c0155d0a19858c843d330ba9851d96fe4de2edaa3c5",
+        "size_in_bytes": 7197
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_date.py",
+        "path_type": "hardlink",
+        "sha256": "c1a57b4bc6f963434a90c26e1bb8284c80815355bae59b181dd2e663d7ae64f4",
+        "sha256_in_prefix": "c1a57b4bc6f963434a90c26e1bb8284c80815355bae59b181dd2e663d7ae64f4",
+        "size_in_bytes": 2596
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_file.py",
+        "path_type": "hardlink",
+        "sha256": "368558e806507c1a0734b0d59153d22519a72ff2ef7954f7a35fbe5f27dbe657",
+        "sha256_in_prefix": "368558e806507c1a0734b0d59153d22519a72ff2ef7954f7a35fbe5f27dbe657",
+        "size_in_bytes": 2151
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_generic.py",
+        "path_type": "hardlink",
+        "sha256": "7e1e999d971f716db87bc108895f1b992c9bea77ac1cc7ca7b2ce55a9451d1c3",
+        "sha256_in_prefix": "7e1e999d971f716db87bc108895f1b992c9bea77ac1cc7ca7b2ce55a9451d1c3",
+        "size_in_bytes": 1189
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_image.py",
+        "path_type": "hardlink",
+        "sha256": "63476decc38d49664b44a10ff32f4caefe2b3df69d5646c4a2c3ab5306900aa2",
+        "sha256_in_prefix": "63476decc38d49664b44a10ff32f4caefe2b3df69d5646c4a2c3ab5306900aa2",
+        "size_in_bytes": 6120
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_path.py",
+        "path_type": "hardlink",
+        "sha256": "cc5f0447086c7595e3d1c2b261b0556e1a10932f8f9c3eb65df5c1bec9a1c2d6",
+        "sha256_in_prefix": "cc5f0447086c7595e3d1c2b261b0556e1a10932f8f9c3eb65df5c1bec9a1c2d6",
+        "size_in_bytes": 4020
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_real.py",
+        "path_type": "hardlink",
+        "sha256": "46b9c2e4312fe8e8de9d5889ec45099c0411c26d8d521874185c85509cb650ea",
+        "sha256_in_prefix": "46b9c2e4312fe8e8de9d5889ec45099c0411c26d8d521874185c85509cb650ea",
+        "size_in_bytes": 7472
+      },
+      {
+        "_path": "site-packages/pandas_profiling/report/structure/variables/render_url.py",
+        "path_type": "hardlink",
+        "sha256": "c7fe18b22afaa2733f9bee5ce88fec2582668b623bf96c53bc543e7cc942b985",
+        "sha256_in_prefix": "c7fe18b22afaa2733f9bee5ce88fec2582668b623bf96c53bc543e7cc942b985",
+        "size_in_bytes": 3993
+      },
+      {
+        "_path": "site-packages/pandas_profiling/serialize_report.py",
+        "path_type": "hardlink",
+        "sha256": "f05e75f08f1aa4e808806184404a15194effb6e628d8cc8b11ddb2ac17f80ca5",
+        "sha256_in_prefix": "f05e75f08f1aa4e808806184404a15194effb6e628d8cc8b11ddb2ac17f80ca5",
+        "size_in_bytes": 5032
+      },
+      {
+        "_path": "site-packages/pandas_profiling/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b011cdfe209ee7895c3bdeb62abb185e283845acd29a525dece978b8b71c68b5",
+        "sha256_in_prefix": "b011cdfe209ee7895c3bdeb62abb185e283845acd29a525dece978b8b71c68b5",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "site-packages/pandas_profiling/utils/cache.py",
+        "path_type": "hardlink",
+        "sha256": "c381055854e6b702892732d5229d595077a6e76602e3997096968e7e2e9ba283",
+        "sha256_in_prefix": "c381055854e6b702892732d5229d595077a6e76602e3997096968e7e2e9ba283",
+        "size_in_bytes": 703
+      },
+      {
+        "_path": "site-packages/pandas_profiling/utils/common.py",
+        "path_type": "hardlink",
+        "sha256": "5b3809b7557a0345cb76f3e5bc9a57e3fa36c5b59fffdc78150ea1ac2d36f450",
+        "sha256_in_prefix": "5b3809b7557a0345cb76f3e5bc9a57e3fa36c5b59fffdc78150ea1ac2d36f450",
+        "size_in_bytes": 1918
+      },
+      {
+        "_path": "site-packages/pandas_profiling/utils/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "990ed4c88ba7b0575e84235c84b31d0c1e337f0911138c5ac3aa3cab29a34fd0",
+        "sha256_in_prefix": "990ed4c88ba7b0575e84235c84b31d0c1e337f0911138c5ac3aa3cab29a34fd0",
+        "size_in_bytes": 4503
+      },
+      {
+        "_path": "site-packages/pandas_profiling/utils/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "f8b9e4f91302e7374559d27ff954cbe27bd1617ed865a05e5f4a4a1fbf86be3d",
+        "sha256_in_prefix": "f8b9e4f91302e7374559d27ff954cbe27bd1617ed865a05e5f4a4a1fbf86be3d",
+        "size_in_bytes": 278
+      },
+      {
+        "_path": "site-packages/pandas_profiling/utils/paths.py",
+        "path_type": "hardlink",
+        "sha256": "e5a596f47e37b16b3b29d06fac117782a05386c0c9f00c82b2b74ccbbfbe1e91",
+        "sha256_in_prefix": "e5a596f47e37b16b3b29d06fac117782a05386c0c9f00c82b2b74ccbbfbe1e91",
+        "size_in_bytes": 1186
+      },
+      {
+        "_path": "site-packages/pandas_profiling/version.py",
+        "path_type": "hardlink",
+        "sha256": "703a5b1c989451c87771adb617906e3781d3dd79acd3b7c64b7b03ad0cd4760e",
+        "sha256_in_prefix": "703a5b1c989451c87771adb617906e3781d3dd79acd3b7c64b7b03ad0cd4760e",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/pandas_profiling/visualisation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1f83d32c1d39431d312cd8a1f5138b5339b0a5f42da5a2c7fee7f502ffc17d3b",
+        "sha256_in_prefix": "1f83d32c1d39431d312cd8a1f5138b5339b0a5f42da5a2c7fee7f502ffc17d3b",
+        "size_in_bytes": 32
+      },
+      {
+        "_path": "site-packages/pandas_profiling/visualisation/context.py",
+        "path_type": "hardlink",
+        "sha256": "e93077a6d939b0e5ae2d2f95d2656b9d77438ba21e6f639cb7f67c261f272b68",
+        "sha256_in_prefix": "e93077a6d939b0e5ae2d2f95d2656b9d77438ba21e6f639cb7f67c261f272b68",
+        "size_in_bytes": 2782
+      },
+      {
+        "_path": "site-packages/pandas_profiling/visualisation/missing.py",
+        "path_type": "hardlink",
+        "sha256": "edcf5c5a802b7a30f392d653aa06fcd4f78823c05c1e7c948f2c25c503397925",
+        "sha256_in_prefix": "edcf5c5a802b7a30f392d653aa06fcd4f78823c05c1e7c948f2c25c503397925",
+        "size_in_bytes": 3752
+      },
+      {
+        "_path": "site-packages/pandas_profiling/visualisation/plot.py",
+        "path_type": "hardlink",
+        "sha256": "7246c79807ff20d468a84b77d46bace457e56eb5a6cd99d02bc86ce80b78a703",
+        "sha256_in_prefix": "7246c79807ff20d468a84b77d46bace457e56eb5a6cd99d02bc86ce80b78a703",
+        "size_in_bytes": 8709
+      },
+      {
+        "_path": "site-packages/pandas_profiling/visualisation/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d291f7c4254c0b671e0539cb19b514540e8d699d67d4067e08c50fd7507e9f05",
+        "sha256_in_prefix": "d291f7c4254c0b671e0539cb19b514540e8d699d67d4067e08c50fd7507e9f05",
+        "size_in_bytes": 3188
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/controller/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/controller/__pycache__/console.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/controller/__pycache__/pandas_decorator.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/correlations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/describe.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/messages.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/sample.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/model/__pycache__/summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/__pycache__/profile_report.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/__pycache__/formatters.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/collapse.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/container.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/duplicate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/frequency_table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/frequency_table_small.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/html.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/item_renderer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/renderable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/root.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/sample.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/toggle_button.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/variable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/variable_info.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/core/__pycache__/warnings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/__pycache__/flavours.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/collapse.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/container.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/duplicate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/frequency_table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/frequency_table_small.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/html.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/root.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/sample.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/templates.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/toggle_button.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/variable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/variable_info.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/html/__pycache__/warnings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/app.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/collapse.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/container.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/duplicate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/frequency_table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/frequency_table_small.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/html.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/root.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/sample.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/toggle_button.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/variable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/variable_info.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/qt/__pycache__/warnings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/streamlit/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/collapse.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/container.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/duplicate.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/frequency_table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/frequency_table_small.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/html.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/notebook.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/root.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/sample.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/table.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/toggle_button.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/variable.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/variable_info.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/flavours/widget/__pycache__/warnings.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/presentation/__pycache__/frequency_table_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/__pycache__/correlations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/__pycache__/overview.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/__pycache__/report.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_boolean.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_categorical.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_complex.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_count.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_date.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_file.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_generic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_path.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_real.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/report/structure/variables/__pycache__/render_url.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/__pycache__/serialize_report.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/common.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/dataframe.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/notebook.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/utils/__pycache__/paths.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/__pycache__/version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/context.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/missing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/plot.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/pandas_profiling/visualisation/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pandas-profiling",
+  "sha256": "b50fb1255b60fbfb389fb82da26d7c27d1b04730288afd3213a5a28cfbb478b4",
+  "size": 171535,
+  "subdir": "noarch",
+  "timestamp": 1605884924697,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pandas-profiling-2.9.0-pyhd3eb1b0_0.conda",
+  "version": "2.9.0"
+}

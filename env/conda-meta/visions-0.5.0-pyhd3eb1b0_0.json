@@ -1,0 +1,1248 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "attrs >=19.3.0",
+    "networkx >=2.4",
+    "numpy",
+    "pandas >=0.25.3",
+    "python",
+    "tangled-up-in-unicode >=0.0.4"
+  ],
+  "extracted_package_dir": "/home/kolesod/miniconda3/pkgs/visions-0.5.0-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/visions-0.5.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/visions-0.5.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/visions-0.5.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/visions-0.5.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/visions-0.5.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/visions-0.5.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/visions-0.5.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/visions-0.5.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/visions/__init__.py",
+    "lib/python3.9/site-packages/visions/application/__init__.py",
+    "lib/python3.9/site-packages/visions/application/summaries/__init__.py",
+    "lib/python3.9/site-packages/visions/application/summaries/complete_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/frame/__init__.py",
+    "lib/python3.9/site-packages/visions/application/summaries/frame/dataframe_series_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/frame/dataframe_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/frame/dataframe_type_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/functional.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__init__.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/base_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/category_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/email_address_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/file_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/image_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/missing_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/numerical_basic_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/numerical_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/path_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/range_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/text_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/unique_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/url_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/series/zero_summary.py",
+    "lib/python3.9/site-packages/visions/application/summaries/summary.py",
+    "lib/python3.9/site-packages/visions/dtypes/__init__.py",
+    "lib/python3.9/site-packages/visions/dtypes/boolean.py",
+    "lib/python3.9/site-packages/visions/functional.py",
+    "lib/python3.9/site-packages/visions/py.typed",
+    "lib/python3.9/site-packages/visions/relations/__init__.py",
+    "lib/python3.9/site-packages/visions/relations/categorical_to_ordinal.py",
+    "lib/python3.9/site-packages/visions/relations/integer_to_count.py",
+    "lib/python3.9/site-packages/visions/relations/integer_to_datetime.py",
+    "lib/python3.9/site-packages/visions/relations/integer_to_ordinal.py",
+    "lib/python3.9/site-packages/visions/relations/relations.py",
+    "lib/python3.9/site-packages/visions/relations/string_to_bool.py",
+    "lib/python3.9/site-packages/visions/relations/string_to_categorical.py",
+    "lib/python3.9/site-packages/visions/relations/string_to_datetime.py",
+    "lib/python3.9/site-packages/visions/relations/string_to_ordinal.py",
+    "lib/python3.9/site-packages/visions/types/__init__.py",
+    "lib/python3.9/site-packages/visions/types/boolean.py",
+    "lib/python3.9/site-packages/visions/types/categorical.py",
+    "lib/python3.9/site-packages/visions/types/complex.py",
+    "lib/python3.9/site-packages/visions/types/count.py",
+    "lib/python3.9/site-packages/visions/types/date.py",
+    "lib/python3.9/site-packages/visions/types/date_time.py",
+    "lib/python3.9/site-packages/visions/types/email_address.py",
+    "lib/python3.9/site-packages/visions/types/file.py",
+    "lib/python3.9/site-packages/visions/types/finance/__init__.py",
+    "lib/python3.9/site-packages/visions/types/float.py",
+    "lib/python3.9/site-packages/visions/types/generic.py",
+    "lib/python3.9/site-packages/visions/types/geometry.py",
+    "lib/python3.9/site-packages/visions/types/image.py",
+    "lib/python3.9/site-packages/visions/types/integer.py",
+    "lib/python3.9/site-packages/visions/types/ip_address.py",
+    "lib/python3.9/site-packages/visions/types/numeric.py",
+    "lib/python3.9/site-packages/visions/types/object.py",
+    "lib/python3.9/site-packages/visions/types/ordinal.py",
+    "lib/python3.9/site-packages/visions/types/path.py",
+    "lib/python3.9/site-packages/visions/types/string.py",
+    "lib/python3.9/site-packages/visions/types/time.py",
+    "lib/python3.9/site-packages/visions/types/time_delta.py",
+    "lib/python3.9/site-packages/visions/types/type.py",
+    "lib/python3.9/site-packages/visions/types/url.py",
+    "lib/python3.9/site-packages/visions/types/uuid.py",
+    "lib/python3.9/site-packages/visions/typesets/__init__.py",
+    "lib/python3.9/site-packages/visions/typesets/complete_set.py",
+    "lib/python3.9/site-packages/visions/typesets/geometry_set.py",
+    "lib/python3.9/site-packages/visions/typesets/standard_set.py",
+    "lib/python3.9/site-packages/visions/typesets/typeset.py",
+    "lib/python3.9/site-packages/visions/typing.py",
+    "lib/python3.9/site-packages/visions/utils/__init__.py",
+    "lib/python3.9/site-packages/visions/utils/cache.py",
+    "lib/python3.9/site-packages/visions/utils/coercion/__init__.py",
+    "lib/python3.9/site-packages/visions/utils/coercion/test_utils.py",
+    "lib/python3.9/site-packages/visions/utils/graph.py",
+    "lib/python3.9/site-packages/visions/utils/images/__init__.py",
+    "lib/python3.9/site-packages/visions/utils/images/image_utils.py",
+    "lib/python3.9/site-packages/visions/utils/monkeypatches/__init__.py",
+    "lib/python3.9/site-packages/visions/utils/monkeypatches/imghdr_patch.py",
+    "lib/python3.9/site-packages/visions/utils/monkeypatches/pathlib_patch.py",
+    "lib/python3.9/site-packages/visions/utils/profiling.py",
+    "lib/python3.9/site-packages/visions/utils/series_utils.py",
+    "lib/python3.9/site-packages/visions/utils/warning_handling.py",
+    "lib/python3.9/site-packages/visions/visualisation/__init__.py",
+    "lib/python3.9/site-packages/visions/visualisation/plot_circular_packing.py",
+    "lib/python3.9/site-packages/visions/visualisation/plot_summary.py",
+    "lib/python3.9/site-packages/visions/visualisation/plot_typesets.py",
+    "lib/python3.9/site-packages/visions/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/__pycache__/complete_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/frame/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/frame/__pycache__/dataframe_series_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/frame/__pycache__/dataframe_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/frame/__pycache__/dataframe_type_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/__pycache__/functional.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/base_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/category_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/email_address_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/file_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/image_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/missing_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/numerical_basic_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/numerical_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/path_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/range_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/text_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/unique_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/url_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/zero_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/application/summaries/__pycache__/summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/dtypes/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/dtypes/__pycache__/boolean.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/__pycache__/functional.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/categorical_to_ordinal.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/integer_to_count.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/integer_to_datetime.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/integer_to_ordinal.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/relations.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/string_to_bool.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/string_to_categorical.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/string_to_datetime.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/relations/__pycache__/string_to_ordinal.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/boolean.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/categorical.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/complex.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/count.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/date.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/date_time.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/email_address.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/file.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/finance/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/float.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/generic.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/geometry.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/image.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/integer.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/ip_address.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/numeric.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/object.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/ordinal.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/path.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/string.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/time.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/time_delta.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/type.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/url.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/types/__pycache__/uuid.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/typesets/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/typesets/__pycache__/complete_set.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/typesets/__pycache__/geometry_set.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/typesets/__pycache__/standard_set.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/typesets/__pycache__/typeset.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/__pycache__/typing.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/__pycache__/cache.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/coercion/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/coercion/__pycache__/test_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/__pycache__/graph.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/images/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/images/__pycache__/image_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/monkeypatches/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/monkeypatches/__pycache__/imghdr_patch.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/monkeypatches/__pycache__/pathlib_patch.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/__pycache__/profiling.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/__pycache__/series_utils.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/utils/__pycache__/warning_handling.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/visualisation/__pycache__/__init__.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/visualisation/__pycache__/plot_circular_packing.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/visualisation/__pycache__/plot_summary.cpython-39.pyc",
+    "lib/python3.9/site-packages/visions/visualisation/__pycache__/plot_typesets.cpython-39.pyc"
+  ],
+  "fn": "visions-0.5.0-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "6c29cdeb4690694a75b0c8008708f9ed",
+  "legacy_bz2_size": 44908,
+  "license": "BSD-4-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/kolesod/miniconda3/pkgs/visions-0.5.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "fd87df76ce6e78f41dbcd3c6a8b0621b",
+  "name": "visions",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/kolesod/miniconda3/pkgs/visions-0.5.0-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/visions-0.5.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/visions-0.5.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cda2b2202aa48b39351d89d32a88cef498c3ed0d47af83b8b2d4cc91018c8dc2",
+        "sha256_in_prefix": "cda2b2202aa48b39351d89d32a88cef498c3ed0d47af83b8b2d4cc91018c8dc2",
+        "size_in_bytes": 1680
+      },
+      {
+        "_path": "site-packages/visions-0.5.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "55712b38778c48a09c34269e1ed2bbbb3e4f85ad4a5b563349914a917607ff06",
+        "sha256_in_prefix": "55712b38778c48a09c34269e1ed2bbbb3e4f85ad4a5b563349914a917607ff06",
+        "size_in_bytes": 5011
+      },
+      {
+        "_path": "site-packages/visions-0.5.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "178f6f0965eeab372b6e3a464944fdd2904978a40462a355de1adbdcf833c2aa",
+        "sha256_in_prefix": "178f6f0965eeab372b6e3a464944fdd2904978a40462a355de1adbdcf833c2aa",
+        "size_in_bytes": 14298
+      },
+      {
+        "_path": "site-packages/visions-0.5.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions-0.5.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/visions-0.5.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "d5b636a3c58fd7d300d3a9dfce71e60d9352e2da0dea7b92360a56a7312895b4",
+        "sha256_in_prefix": "d5b636a3c58fd7d300d3a9dfce71e60d9352e2da0dea7b92360a56a7312895b4",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/visions-0.5.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ae614e45947ed92240f6e3fdd7fc25bb5934ca6e3df5ea341bdc6ced820a0ebf",
+        "sha256_in_prefix": "ae614e45947ed92240f6e3fdd7fc25bb5934ca6e3df5ea341bdc6ced820a0ebf",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/visions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3d712ab3be6377d6be9589b9eb45042be7fde44730326e3cafb5af8c27711c9",
+        "sha256_in_prefix": "e3d712ab3be6377d6be9589b9eb45042be7fde44730326e3cafb5af8c27711c9",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "site-packages/visions/application/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ac67482d12f1f37496930965d968dc1b8f54b1cfff02096ffb46cc54aac62fa6",
+        "sha256_in_prefix": "ac67482d12f1f37496930965d968dc1b8f54b1cfff02096ffb46cc54aac62fa6",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fe54da8454548e89aafa40c0d3cbbe25aef8a1a7827b7800880f1a3054521fcc",
+        "sha256_in_prefix": "fe54da8454548e89aafa40c0d3cbbe25aef8a1a7827b7800880f1a3054521fcc",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/complete_summary.py",
+        "path_type": "hardlink",
+        "sha256": "0dd9d6ee4fb962459e000b50b6b1e42b349c3c007f91f670ebeb793a0f1637bb",
+        "sha256_in_prefix": "0dd9d6ee4fb962459e000b50b6b1e42b349c3c007f91f670ebeb793a0f1637bb",
+        "size_in_bytes": 1435
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/frame/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e9ee1f92059c94be78479e0734e9d976bb14620b03fc4d88d257f935e9622b31",
+        "sha256_in_prefix": "e9ee1f92059c94be78479e0734e9d976bb14620b03fc4d88d257f935e9622b31",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/frame/dataframe_series_summary.py",
+        "path_type": "hardlink",
+        "sha256": "bda2e15692f51bc80e5d0994a718198b6945675fe9304b12c1db6192d2787271",
+        "sha256_in_prefix": "bda2e15692f51bc80e5d0994a718198b6945675fe9304b12c1db6192d2787271",
+        "size_in_bytes": 598
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/frame/dataframe_summary.py",
+        "path_type": "hardlink",
+        "sha256": "b8d316e398b32e9cf5518af6cf21eac1fbd6a53665c35b7925d71baac777584d",
+        "sha256_in_prefix": "b8d316e398b32e9cf5518af6cf21eac1fbd6a53665c35b7925d71baac777584d",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/frame/dataframe_type_summary.py",
+        "path_type": "hardlink",
+        "sha256": "ba86fd3748565ed5da9eeec794cdce02634cdfac589cba69fc845c0e4b1220b5",
+        "sha256_in_prefix": "ba86fd3748565ed5da9eeec794cdce02634cdfac589cba69fc845c0e4b1220b5",
+        "size_in_bytes": 160
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/functional.py",
+        "path_type": "hardlink",
+        "sha256": "1c53966ed06ae13259ad5c66e87f0f70f64f3076be6345d9a762aadc6558cb3f",
+        "sha256_in_prefix": "1c53966ed06ae13259ad5c66e87f0f70f64f3076be6345d9a762aadc6558cb3f",
+        "size_in_bytes": 580
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b3aa20f4fe8d50dd18da49e734d6fcbee75f56932fde7a15fb7cb5111a1f464",
+        "sha256_in_prefix": "3b3aa20f4fe8d50dd18da49e734d6fcbee75f56932fde7a15fb7cb5111a1f464",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/base_summary.py",
+        "path_type": "hardlink",
+        "sha256": "b40a067470c5870399c378fcc54cb710078e10a861efe01ec4f44e451f265f69",
+        "sha256_in_prefix": "b40a067470c5870399c378fcc54cb710078e10a861efe01ec4f44e451f265f69",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/category_summary.py",
+        "path_type": "hardlink",
+        "sha256": "d290b35036dd9f6cd60a6a6bb68bbbd7acd59af994e2542511ec67a05fffc688",
+        "sha256_in_prefix": "d290b35036dd9f6cd60a6a6bb68bbbd7acd59af994e2542511ec67a05fffc688",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/email_address_summary.py",
+        "path_type": "hardlink",
+        "sha256": "edb9eb96a871c5d8070ad346538df80d6112b680961054137279a729b044aba4",
+        "sha256_in_prefix": "edb9eb96a871c5d8070ad346538df80d6112b680961054137279a729b044aba4",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/file_summary.py",
+        "path_type": "hardlink",
+        "sha256": "aa0bb75f0c7b6c10c97bd782e45d305e5c68a526eb5a0e0bb848f879d92e5f39",
+        "sha256_in_prefix": "aa0bb75f0c7b6c10c97bd782e45d305e5c68a526eb5a0e0bb848f879d92e5f39",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/image_summary.py",
+        "path_type": "hardlink",
+        "sha256": "6c1d2e1808f60cd0a6b320c1c20638304f957793b273b1ce4630ac532efab841",
+        "sha256_in_prefix": "6c1d2e1808f60cd0a6b320c1c20638304f957793b273b1ce4630ac532efab841",
+        "size_in_bytes": 3491
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/missing_summary.py",
+        "path_type": "hardlink",
+        "sha256": "8a2d46a4be3952128e0d40253a14f384c558dcf02349c6280e72ea7fe0567182",
+        "sha256_in_prefix": "8a2d46a4be3952128e0d40253a14f384c558dcf02349c6280e72ea7fe0567182",
+        "size_in_bytes": 310
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/numerical_basic_summary.py",
+        "path_type": "hardlink",
+        "sha256": "d3f67bd626aac22c52ddc1daa3d751ebfeb5af4a44e20f2e785944356f8cca70",
+        "sha256_in_prefix": "d3f67bd626aac22c52ddc1daa3d751ebfeb5af4a44e20f2e785944356f8cca70",
+        "size_in_bytes": 393
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/numerical_summary.py",
+        "path_type": "hardlink",
+        "sha256": "ca3fae5601736661aedb24b5e9470c0e3c538b14ba2c49c222bbee5a4e51f9d4",
+        "sha256_in_prefix": "ca3fae5601736661aedb24b5e9470c0e3c538b14ba2c49c222bbee5a4e51f9d4",
+        "size_in_bytes": 2630
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/path_summary.py",
+        "path_type": "hardlink",
+        "sha256": "b52c2f51a8f1cb424c2c531f0955b6d833ddb313f72d571a800bf83efe67915f",
+        "sha256_in_prefix": "b52c2f51a8f1cb424c2c531f0955b6d833ddb313f72d571a800bf83efe67915f",
+        "size_in_bytes": 941
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/range_summary.py",
+        "path_type": "hardlink",
+        "sha256": "a532cbcd8abbe0d5688f11a570e297007d02b860d2c0ee9ede931cd0831512f7",
+        "sha256_in_prefix": "a532cbcd8abbe0d5688f11a570e297007d02b860d2c0ee9ede931cd0831512f7",
+        "size_in_bytes": 387
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/text_summary.py",
+        "path_type": "hardlink",
+        "sha256": "4f1ccaef36e03cabcf374374c2fd19cabd7d81484d5c172ad5dc4a7fade2087f",
+        "sha256_in_prefix": "4f1ccaef36e03cabcf374374c2fd19cabd7d81484d5c172ad5dc4a7fade2087f",
+        "size_in_bytes": 4043
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/unique_summary.py",
+        "path_type": "hardlink",
+        "sha256": "1eea6642130bae93df7b5fc27cfa76d05ab9aa84e6fe24377d5c46467753a606",
+        "sha256_in_prefix": "1eea6642130bae93df7b5fc27cfa76d05ab9aa84e6fe24377d5c46467753a606",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/url_summary.py",
+        "path_type": "hardlink",
+        "sha256": "9a594f7ce5f9abfd9189f523d6af23686a2a6f5bfcc97f765039b28654ff2db0",
+        "sha256_in_prefix": "9a594f7ce5f9abfd9189f523d6af23686a2a6f5bfcc97f765039b28654ff2db0",
+        "size_in_bytes": 544
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/series/zero_summary.py",
+        "path_type": "hardlink",
+        "sha256": "57880a396506bc304dbd0f1df7c6ce773ef650329d8d1276f2c2da14afae61db",
+        "sha256_in_prefix": "57880a396506bc304dbd0f1df7c6ce773ef650329d8d1276f2c2da14afae61db",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/visions/application/summaries/summary.py",
+        "path_type": "hardlink",
+        "sha256": "f18736fc50cc49344bfb202426018e8749185d13002738c8ed19ff25ba474df1",
+        "sha256_in_prefix": "f18736fc50cc49344bfb202426018e8749185d13002738c8ed19ff25ba474df1",
+        "size_in_bytes": 3559
+      },
+      {
+        "_path": "site-packages/visions/dtypes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/dtypes/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "684f5ee199f455a0a9f83ab8bd1801389875795588674a4881dabd97060813e9",
+        "sha256_in_prefix": "684f5ee199f455a0a9f83ab8bd1801389875795588674a4881dabd97060813e9",
+        "size_in_bytes": 22275
+      },
+      {
+        "_path": "site-packages/visions/functional.py",
+        "path_type": "hardlink",
+        "sha256": "9b52fc61fe7a80f747b171aa3486fcf468e82cc7dadb5adb46cee69dce801e18",
+        "sha256_in_prefix": "9b52fc61fe7a80f747b171aa3486fcf468e82cc7dadb5adb46cee69dce801e18",
+        "size_in_bytes": 4700
+      },
+      {
+        "_path": "site-packages/visions/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/relations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "04f69cf1349f63c09d8efcf359c03159751bb481d5ff8471de569752f51c5837",
+        "sha256_in_prefix": "04f69cf1349f63c09d8efcf359c03159751bb481d5ff8471de569752f51c5837",
+        "size_in_bytes": 158
+      },
+      {
+        "_path": "site-packages/visions/relations/categorical_to_ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "0c00bbb03967c8486d3a0099ac72860c65c86d87696c6fcff0bf8db8f8c1f943",
+        "sha256_in_prefix": "0c00bbb03967c8486d3a0099ac72860c65c86d87696c6fcff0bf8db8f8c1f943",
+        "size_in_bytes": 678
+      },
+      {
+        "_path": "site-packages/visions/relations/integer_to_count.py",
+        "path_type": "hardlink",
+        "sha256": "3ad1ed8674a018bdb8e27f87a66f1ed97937f533a8e7140adc6f3c8d6ea86bf9",
+        "sha256_in_prefix": "3ad1ed8674a018bdb8e27f87a66f1ed97937f533a8e7140adc6f3c8d6ea86bf9",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "site-packages/visions/relations/integer_to_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "30bc7d5bf3a2764b44c1651e31664819dc328a266b737598cd74a371105185ea",
+        "sha256_in_prefix": "30bc7d5bf3a2764b44c1651e31664819dc328a266b737598cd74a371105185ea",
+        "size_in_bytes": 811
+      },
+      {
+        "_path": "site-packages/visions/relations/integer_to_ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "d8e82a6b59b7c2679613a605689c9b99273e35c929cc68e0c92deb5503a1bf4d",
+        "sha256_in_prefix": "d8e82a6b59b7c2679613a605689c9b99273e35c929cc68e0c92deb5503a1bf4d",
+        "size_in_bytes": 587
+      },
+      {
+        "_path": "site-packages/visions/relations/relations.py",
+        "path_type": "hardlink",
+        "sha256": "30a63269be265f87d3a55f73fc4faf3b8e18b6432f5ed6800bd37b80e30acada",
+        "sha256_in_prefix": "30a63269be265f87d3a55f73fc4faf3b8e18b6432f5ed6800bd37b80e30acada",
+        "size_in_bytes": 2199
+      },
+      {
+        "_path": "site-packages/visions/relations/string_to_bool.py",
+        "path_type": "hardlink",
+        "sha256": "5574c84bf308bee3b5681e4a3df671a03f24a3b00724c3315a0862acbcb12441",
+        "sha256_in_prefix": "5574c84bf308bee3b5681e4a3df671a03f24a3b00724c3315a0862acbcb12441",
+        "size_in_bytes": 685
+      },
+      {
+        "_path": "site-packages/visions/relations/string_to_categorical.py",
+        "path_type": "hardlink",
+        "sha256": "cde6517a82d9a5ca51e30693fea0cbeaa123c6761e9c170231ec132e293caf71",
+        "sha256_in_prefix": "cde6517a82d9a5ca51e30693fea0cbeaa123c6761e9c170231ec132e293caf71",
+        "size_in_bytes": 578
+      },
+      {
+        "_path": "site-packages/visions/relations/string_to_datetime.py",
+        "path_type": "hardlink",
+        "sha256": "9252e7ec14fce8bce9d13969cc91c9b2c4348a3859f7e460aa71cf5acf971642",
+        "sha256_in_prefix": "9252e7ec14fce8bce9d13969cc91c9b2c4348a3859f7e460aa71cf5acf971642",
+        "size_in_bytes": 1748
+      },
+      {
+        "_path": "site-packages/visions/relations/string_to_ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "7adbdc7330a5c098492702ee25c7d7386dfdf1a91e928f9c2aadea5fb3c52e35",
+        "sha256_in_prefix": "7adbdc7330a5c098492702ee25c7d7386dfdf1a91e928f9c2aadea5fb3c52e35",
+        "size_in_bytes": 722
+      },
+      {
+        "_path": "site-packages/visions/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ddb047d0302a38bea630e8da4dd094670f57d7e4959a943efebf752d32b66fc7",
+        "sha256_in_prefix": "ddb047d0302a38bea630e8da4dd094670f57d7e4959a943efebf752d32b66fc7",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "site-packages/visions/types/boolean.py",
+        "path_type": "hardlink",
+        "sha256": "a19aea308238c6adbc4629c86c968921ec3d1e1e76da4979ed43af2bbab53d1f",
+        "sha256_in_prefix": "a19aea308238c6adbc4629c86c968921ec3d1e1e76da4979ed43af2bbab53d1f",
+        "size_in_bytes": 2555
+      },
+      {
+        "_path": "site-packages/visions/types/categorical.py",
+        "path_type": "hardlink",
+        "sha256": "6e45449e22b609d52c916c7c8bd107d9140ab560e837342ce8fc2bfea1341b40",
+        "sha256_in_prefix": "6e45449e22b609d52c916c7c8bd107d9140ab560e837342ce8fc2bfea1341b40",
+        "size_in_bytes": 841
+      },
+      {
+        "_path": "site-packages/visions/types/complex.py",
+        "path_type": "hardlink",
+        "sha256": "663fceb829e3b0ff7642291db578ed220ee8dd97e52700fb020f640f96527062",
+        "sha256_in_prefix": "663fceb829e3b0ff7642291db578ed220ee8dd97e52700fb020f640f96527062",
+        "size_in_bytes": 1431
+      },
+      {
+        "_path": "site-packages/visions/types/count.py",
+        "path_type": "hardlink",
+        "sha256": "7e25a403b7c0b73675a2ba18aa6272b2f13527d5079e228f749ae6e5d84ad644",
+        "sha256_in_prefix": "7e25a403b7c0b73675a2ba18aa6272b2f13527d5079e228f749ae6e5d84ad644",
+        "size_in_bytes": 827
+      },
+      {
+        "_path": "site-packages/visions/types/date.py",
+        "path_type": "hardlink",
+        "sha256": "9f123a9a1350691b25e16ace9031b5c9e7ee8f58985d043c5f71b720ba22edae",
+        "sha256_in_prefix": "9f123a9a1350691b25e16ace9031b5c9e7ee8f58985d043c5f71b720ba22edae",
+        "size_in_bytes": 1486
+      },
+      {
+        "_path": "site-packages/visions/types/date_time.py",
+        "path_type": "hardlink",
+        "sha256": "07a07f651a8410005db968316646b15c811daaeb93ecd85f0843059b6eb254ad",
+        "sha256_in_prefix": "07a07f651a8410005db968316646b15c811daaeb93ecd85f0843059b6eb254ad",
+        "size_in_bytes": 1275
+      },
+      {
+        "_path": "site-packages/visions/types/email_address.py",
+        "path_type": "hardlink",
+        "sha256": "176ff424479852d4773a6f2e9b6e89a797d8681e1f727efb0ec4f493adb8fa67",
+        "sha256_in_prefix": "176ff424479852d4773a6f2e9b6e89a797d8681e1f727efb0ec4f493adb8fa67",
+        "size_in_bytes": 1962
+      },
+      {
+        "_path": "site-packages/visions/types/file.py",
+        "path_type": "hardlink",
+        "sha256": "d1ac515a91684995dc4333a66021ae1c6bcb8f909156420a071c89396077c768",
+        "sha256_in_prefix": "d1ac515a91684995dc4333a66021ae1c6bcb8f909156420a071c89396077c768",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "site-packages/visions/types/finance/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "779940b68a190ca72c732171e8b89c03c35311d4dd70b9decb57bd96e20c0e9d",
+        "sha256_in_prefix": "779940b68a190ca72c732171e8b89c03c35311d4dd70b9decb57bd96e20c0e9d",
+        "size_in_bytes": 54
+      },
+      {
+        "_path": "site-packages/visions/types/float.py",
+        "path_type": "hardlink",
+        "sha256": "28d198873f1e25d73c218a2906e552429588368aa0ef7a569dc9bf9b2b554709",
+        "sha256_in_prefix": "28d198873f1e25d73c218a2906e552429588368aa0ef7a569dc9bf9b2b554709",
+        "size_in_bytes": 2567
+      },
+      {
+        "_path": "site-packages/visions/types/generic.py",
+        "path_type": "hardlink",
+        "sha256": "cf3c259e87b68736f2cb2f20b1ceeb1169cb8c5e81107fcaefd0768b3e13b617",
+        "sha256_in_prefix": "cf3c259e87b68736f2cb2f20b1ceeb1169cb8c5e81107fcaefd0768b3e13b617",
+        "size_in_bytes": 581
+      },
+      {
+        "_path": "site-packages/visions/types/geometry.py",
+        "path_type": "hardlink",
+        "sha256": "3a64447f791f100446e361c63c6ba87552cb6b940058c1fb73c13e1036224ed9",
+        "sha256_in_prefix": "3a64447f791f100446e361c63c6ba87552cb6b940058c1fb73c13e1036224ed9",
+        "size_in_bytes": 2065
+      },
+      {
+        "_path": "site-packages/visions/types/image.py",
+        "path_type": "hardlink",
+        "sha256": "8decbb737c30847d0f5e48ba2ed3955c6f4ba3226436738dd52f5bb520ca45f2",
+        "sha256_in_prefix": "8decbb737c30847d0f5e48ba2ed3955c6f4ba3226436738dd52f5bb520ca45f2",
+        "size_in_bytes": 1042
+      },
+      {
+        "_path": "site-packages/visions/types/integer.py",
+        "path_type": "hardlink",
+        "sha256": "60f1802884879c36d18a03dd6dcc6d3efd28fd5bbdaf838c2bfbff9c42191ef5",
+        "sha256_in_prefix": "60f1802884879c36d18a03dd6dcc6d3efd28fd5bbdaf838c2bfbff9c42191ef5",
+        "size_in_bytes": 1805
+      },
+      {
+        "_path": "site-packages/visions/types/ip_address.py",
+        "path_type": "hardlink",
+        "sha256": "d5b745479737c46b1afe5151d3636edc4dbda8ba9fff03f7fa0575ed88eb881c",
+        "sha256_in_prefix": "d5b745479737c46b1afe5151d3636edc4dbda8ba9fff03f7fa0575ed88eb881c",
+        "size_in_bytes": 1327
+      },
+      {
+        "_path": "site-packages/visions/types/numeric.py",
+        "path_type": "hardlink",
+        "sha256": "35c5f3b15efbc494c37020e49630f07f22a5b1d35d09275939480ed8ad63f669",
+        "sha256_in_prefix": "35c5f3b15efbc494c37020e49630f07f22a5b1d35d09275939480ed8ad63f669",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "site-packages/visions/types/object.py",
+        "path_type": "hardlink",
+        "sha256": "d3ceeac813e1f64cffedf4d890d355154a7b4350971d7cc89cfe56a7893f3f43",
+        "sha256_in_prefix": "d3ceeac813e1f64cffedf4d890d355154a7b4350971d7cc89cfe56a7893f3f43",
+        "size_in_bytes": 1105
+      },
+      {
+        "_path": "site-packages/visions/types/ordinal.py",
+        "path_type": "hardlink",
+        "sha256": "deeb5678a81105280e6bdb8a93c7f936914c1d1f006a225347df7ec06f17a3a5",
+        "sha256_in_prefix": "deeb5678a81105280e6bdb8a93c7f936914c1d1f006a225347df7ec06f17a3a5",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "site-packages/visions/types/path.py",
+        "path_type": "hardlink",
+        "sha256": "c8333a5aa80bc8f7b3d53e2307e11257e93c16cb60f040fe357e0657ff426b63",
+        "sha256_in_prefix": "c8333a5aa80bc8f7b3d53e2307e11257e93c16cb60f040fe357e0657ff426b63",
+        "size_in_bytes": 1565
+      },
+      {
+        "_path": "site-packages/visions/types/string.py",
+        "path_type": "hardlink",
+        "sha256": "db0e0eb01c13b5dcb6900c69f85a3d947d760fa1914c7716305dfc9d8ec8eb9b",
+        "sha256_in_prefix": "db0e0eb01c13b5dcb6900c69f85a3d947d760fa1914c7716305dfc9d8ec8eb9b",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "site-packages/visions/types/time.py",
+        "path_type": "hardlink",
+        "sha256": "0f3c006d74e804e5ef0a35fcd0fb76138721ee4fd3d26d3454cd1d6f7570dcda",
+        "sha256_in_prefix": "0f3c006d74e804e5ef0a35fcd0fb76138721ee4fd3d26d3454cd1d6f7570dcda",
+        "size_in_bytes": 1168
+      },
+      {
+        "_path": "site-packages/visions/types/time_delta.py",
+        "path_type": "hardlink",
+        "sha256": "eb6962e556065a363fe771f71f590270813de4a4daa61e052976073b4091cd11",
+        "sha256_in_prefix": "eb6962e556065a363fe771f71f590270813de4a4daa61e052976073b4091cd11",
+        "size_in_bytes": 841
+      },
+      {
+        "_path": "site-packages/visions/types/type.py",
+        "path_type": "hardlink",
+        "sha256": "274f8c4e63cca701111f1793335eca048aea3ae8fb21b9f5e2ce56bf3361a3fb",
+        "sha256_in_prefix": "274f8c4e63cca701111f1793335eca048aea3ae8fb21b9f5e2ce56bf3361a3fb",
+        "size_in_bytes": 3163
+      },
+      {
+        "_path": "site-packages/visions/types/url.py",
+        "path_type": "hardlink",
+        "sha256": "bdef9b67a3c3dc467a3e608b9a77f54f22f896e813a76e701a93e795e7e1f507",
+        "sha256_in_prefix": "bdef9b67a3c3dc467a3e608b9a77f54f22f896e813a76e701a93e795e7e1f507",
+        "size_in_bytes": 1530
+      },
+      {
+        "_path": "site-packages/visions/types/uuid.py",
+        "path_type": "hardlink",
+        "sha256": "15ce5035744eb0e4042e3251ac5660a3205e700820c4e0a52ef694e125bbdea5",
+        "sha256_in_prefix": "15ce5035744eb0e4042e3251ac5660a3205e700820c4e0a52ef694e125bbdea5",
+        "size_in_bytes": 1642
+      },
+      {
+        "_path": "site-packages/visions/typesets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5e49ce69fcc91054803ea24c638684948066fe48c886ae8a611e1554a64f1a93",
+        "sha256_in_prefix": "5e49ce69fcc91054803ea24c638684948066fe48c886ae8a611e1554a64f1a93",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "site-packages/visions/typesets/complete_set.py",
+        "path_type": "hardlink",
+        "sha256": "bb836c4354f4ed6200c1c72414d1de9af562f4c0c451a6b2ec834f14123c3874",
+        "sha256_in_prefix": "bb836c4354f4ed6200c1c72414d1de9af562f4c0c451a6b2ec834f14123c3874",
+        "size_in_bytes": 1810
+      },
+      {
+        "_path": "site-packages/visions/typesets/geometry_set.py",
+        "path_type": "hardlink",
+        "sha256": "5a1e8146bef6fe9ed669807f974ba7d44891d39b0272225bc2a73604a6f87fca",
+        "sha256_in_prefix": "5a1e8146bef6fe9ed669807f974ba7d44891d39b0272225bc2a73604a6f87fca",
+        "size_in_bytes": 1283
+      },
+      {
+        "_path": "site-packages/visions/typesets/standard_set.py",
+        "path_type": "hardlink",
+        "sha256": "2b138ab22351d76b48a9f8f6946c6705de1807bc48bddc17f389c7e0e14d59a4",
+        "sha256_in_prefix": "2b138ab22351d76b48a9f8f6946c6705de1807bc48bddc17f389c7e0e14d59a4",
+        "size_in_bytes": 773
+      },
+      {
+        "_path": "site-packages/visions/typesets/typeset.py",
+        "path_type": "hardlink",
+        "sha256": "bcd01dc317a5e4607aabd8241bd6a1b33be22062439a8c3aed0e0f674d22ef68",
+        "sha256_in_prefix": "bcd01dc317a5e4607aabd8241bd6a1b33be22062439a8c3aed0e0f674d22ef68",
+        "size_in_bytes": 15006
+      },
+      {
+        "_path": "site-packages/visions/typing.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "92ddfcc54318bb12b81d823e43ccf9323c7b9cd7b234ced6c49979c1b9f38c56",
+        "sha256_in_prefix": "92ddfcc54318bb12b81d823e43ccf9323c7b9cd7b234ced6c49979c1b9f38c56",
+        "size_in_bytes": 438
+      },
+      {
+        "_path": "site-packages/visions/utils/cache.py",
+        "path_type": "hardlink",
+        "sha256": "f5cf5db8ce6cc2e91b4030709cf96e366cbfc5500f809d0a9476c5c1741e087c",
+        "sha256_in_prefix": "f5cf5db8ce6cc2e91b4030709cf96e366cbfc5500f809d0a9476c5c1741e087c",
+        "size_in_bytes": 1557
+      },
+      {
+        "_path": "site-packages/visions/utils/coercion/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "619a8e41685bf66a9d61d65dd346a9b61b0d2866c3e96bfbb842b4c7ea94fb39",
+        "sha256_in_prefix": "619a8e41685bf66a9d61d65dd346a9b61b0d2866c3e96bfbb842b4c7ea94fb39",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "site-packages/visions/utils/coercion/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "ead21d93652b9979577028e2e8f72ad69e0541e2de60e714531a88df3b64441a",
+        "sha256_in_prefix": "ead21d93652b9979577028e2e8f72ad69e0541e2de60e714531a88df3b64441a",
+        "size_in_bytes": 4058
+      },
+      {
+        "_path": "site-packages/visions/utils/graph.py",
+        "path_type": "hardlink",
+        "sha256": "f13a0ab21ff27c9c331b5761b8c634d02a3263fbc7228e19f2d04167bc022fcb",
+        "sha256_in_prefix": "f13a0ab21ff27c9c331b5761b8c634d02a3263fbc7228e19f2d04167bc022fcb",
+        "size_in_bytes": 1293
+      },
+      {
+        "_path": "site-packages/visions/utils/images/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d417882e6c29cccaeda39ba9b58a712c3e87f3abd1e17454078cba9e8ea6b29d",
+        "sha256_in_prefix": "d417882e6c29cccaeda39ba9b58a712c3e87f3abd1e17454078cba9e8ea6b29d",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "site-packages/visions/utils/images/image_utils.py",
+        "path_type": "hardlink",
+        "sha256": "c2e682173c35442919c9fcfb0caed2700cee5c2bfc09f0f64305d531f6bf12c7",
+        "sha256_in_prefix": "c2e682173c35442919c9fcfb0caed2700cee5c2bfc09f0f64305d531f6bf12c7",
+        "size_in_bytes": 1976
+      },
+      {
+        "_path": "site-packages/visions/utils/monkeypatches/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "41989272a2b7307f3303bc34c97e864f4150d4acd0035febda186bab6903eecc",
+        "sha256_in_prefix": "41989272a2b7307f3303bc34c97e864f4150d4acd0035febda186bab6903eecc",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "site-packages/visions/utils/monkeypatches/imghdr_patch.py",
+        "path_type": "hardlink",
+        "sha256": "034ce64dcdf6f1bc30e6eff8714590f6ccebf1b55ba57c6c3d67d5f4c9f6dd41",
+        "sha256_in_prefix": "034ce64dcdf6f1bc30e6eff8714590f6ccebf1b55ba57c6c3d67d5f4c9f6dd41",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "site-packages/visions/utils/monkeypatches/pathlib_patch.py",
+        "path_type": "hardlink",
+        "sha256": "51acb3eb69e1610b14eb9ff1d1e219307801cda16935f953038fc40a35cd6260",
+        "sha256_in_prefix": "51acb3eb69e1610b14eb9ff1d1e219307801cda16935f953038fc40a35cd6260",
+        "size_in_bytes": 307
+      },
+      {
+        "_path": "site-packages/visions/utils/profiling.py",
+        "path_type": "hardlink",
+        "sha256": "2826386f01812a8700c1ca4f1cb923686159d0ec7906ce181aeb183939e22c00",
+        "sha256_in_prefix": "2826386f01812a8700c1ca4f1cb923686159d0ec7906ce181aeb183939e22c00",
+        "size_in_bytes": 2414
+      },
+      {
+        "_path": "site-packages/visions/utils/series_utils.py",
+        "path_type": "hardlink",
+        "sha256": "956ae2b323b6424c90d6a44ae495641795318588fe44914de6a072d62f03c5aa",
+        "sha256_in_prefix": "956ae2b323b6424c90d6a44ae495641795318588fe44914de6a072d62f03c5aa",
+        "size_in_bytes": 1609
+      },
+      {
+        "_path": "site-packages/visions/utils/warning_handling.py",
+        "path_type": "hardlink",
+        "sha256": "9d9c31791b2b456c841e13f33889528c14512249601f298ce6106514cab25785",
+        "sha256_in_prefix": "9d9c31791b2b456c841e13f33889528c14512249601f298ce6106514cab25785",
+        "size_in_bytes": 709
+      },
+      {
+        "_path": "site-packages/visions/visualisation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/visions/visualisation/plot_circular_packing.py",
+        "path_type": "hardlink",
+        "sha256": "86d2e7c02996c2c0901a5bc18f9d9c44853e92ec93f9dc42bf26c2f63d03b9e7",
+        "sha256_in_prefix": "86d2e7c02996c2c0901a5bc18f9d9c44853e92ec93f9dc42bf26c2f63d03b9e7",
+        "size_in_bytes": 1860
+      },
+      {
+        "_path": "site-packages/visions/visualisation/plot_summary.py",
+        "path_type": "hardlink",
+        "sha256": "c73e4d0c5550ebe762c208c63eaab9885374f6f6e668c71d3956187f2d58310e",
+        "sha256_in_prefix": "c73e4d0c5550ebe762c208c63eaab9885374f6f6e668c71d3956187f2d58310e",
+        "size_in_bytes": 718
+      },
+      {
+        "_path": "site-packages/visions/visualisation/plot_typesets.py",
+        "path_type": "hardlink",
+        "sha256": "425549df6d1d08f3102cfcb77516f69ffbd5925fc439c2947fd959416f71d6c8",
+        "sha256_in_prefix": "425549df6d1d08f3102cfcb77516f69ffbd5925fc439c2947fd959416f71d6c8",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/__pycache__/complete_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/frame/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/frame/__pycache__/dataframe_series_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/frame/__pycache__/dataframe_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/frame/__pycache__/dataframe_type_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/__pycache__/functional.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/base_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/category_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/email_address_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/file_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/image_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/missing_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/numerical_basic_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/numerical_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/path_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/range_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/text_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/unique_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/url_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/series/__pycache__/zero_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/application/summaries/__pycache__/summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/dtypes/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/dtypes/__pycache__/boolean.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/__pycache__/functional.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/categorical_to_ordinal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/integer_to_count.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/integer_to_datetime.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/integer_to_ordinal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/relations.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/string_to_bool.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/string_to_categorical.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/string_to_datetime.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/relations/__pycache__/string_to_ordinal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/boolean.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/categorical.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/complex.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/count.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/date.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/date_time.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/email_address.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/file.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/finance/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/float.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/generic.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/geometry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/image.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/integer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/ip_address.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/numeric.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/object.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/ordinal.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/path.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/string.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/time.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/time_delta.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/type.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/url.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/types/__pycache__/uuid.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/typesets/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/typesets/__pycache__/complete_set.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/typesets/__pycache__/geometry_set.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/typesets/__pycache__/standard_set.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/typesets/__pycache__/typeset.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/__pycache__/typing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/__pycache__/cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/coercion/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/coercion/__pycache__/test_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/__pycache__/graph.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/images/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/images/__pycache__/image_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/monkeypatches/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/monkeypatches/__pycache__/imghdr_patch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/monkeypatches/__pycache__/pathlib_patch.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/__pycache__/profiling.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/__pycache__/series_utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/utils/__pycache__/warning_handling.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/visualisation/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/visualisation/__pycache__/plot_circular_packing.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/visualisation/__pycache__/plot_summary.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.9/site-packages/visions/visualisation/__pycache__/plot_typesets.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "81cde55548d9a4efe773af58b8e5e7e5701bc8aa0ee6457daebc01e4a4467d9f",
+  "size": 45615,
+  "subdir": "noarch",
+  "timestamp": 1605827829434,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/visions-0.5.0-pyhd3eb1b0_0.conda",
+  "version": "0.5.0"
+}
